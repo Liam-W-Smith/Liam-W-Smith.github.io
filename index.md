@@ -1,3 +1,7 @@
+---
+layout: default
+title: Main page
+---
 # This is a heading
 
 Leave blank lines between paragraphs, tables, lists, etc.
