@@ -19,3 +19,7 @@ first column | second column | third column
 :------------|:------------:| ------------:
 left align | center align | right align
 new row | | blank center
+
+## Blog Posts
+
+1. [Open GIScience](open-giscience)
