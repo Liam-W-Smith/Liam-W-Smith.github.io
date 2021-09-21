@@ -2,7 +2,7 @@
 layout: default
 title: Main page
 ---
-# This is a heading
+# Code Samples for Reference
 
 Leave blank lines between paragraphs, tables, lists, etc.
 Start sentences on new lines.
@@ -23,6 +23,12 @@ first column | second column | third column
 :------------|:------------:| ------------:
 left align | center align | right align
 new row | | blank center
+
+Just an image:
+![GitHub Logo](assets/GitHub-Mark-120px-plus.png)
+
+Image with a link:
+[![GitHub Logo](assets/GitHub-Mark-120px-plus.png)](https://github.com/)
 
 ## Blog Posts
 
