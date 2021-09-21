@@ -3,7 +3,7 @@ layout: page
 title: Is GIS a Science?
 ---
 
-In this post, I’ll explore the question: does working with GIS qualify as “science”?
+In this post, I’ll explore the question: does working with Geographic Information Systems (GIS) qualify as “science”?
 But before I get there, I’d like to explain why we care if GIS is a science.
 
 It’s not immediately obvious that the distinction matters.
