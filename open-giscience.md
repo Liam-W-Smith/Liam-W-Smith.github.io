@@ -26,13 +26,15 @@ It is possible to use GIS in a scientific manner; it is equally possible to use 
 Wright et al articulate three main approaches to GIS: “(1) GIS as a tool, (2) GIS as toolmaking; and (3) the science of GIS.”
 Each perspective could be a valid characterization of an individual’s use of GIS, depending on how one uses the software.
 Let’s examine the three approaches to GIS in more detail.
-1)	GIS as a tool: GIS is a software, used by scientists and analysts of a variety of fields to conduct spatial analysis.
+
+1) GIS as a tool: GIS is a software, used by scientists and analysts of a variety of fields to conduct spatial analysis.
 Rather than being a field in and of itself, GIS is a tool that salespeople market; and researchers, students, and professionals use to investigate individual problems.
 These problems are particular to a separate field and the individual uses GIS to solve the problem, with no other motives.
-2)	GIS as toolmaking: This perspective revolves around the development and improvement of GIS software.
+
+2) GIS as toolmaking: This perspective revolves around the development and improvement of GIS software.
 Software developers fall under this category, as they write the code to improve the tools and processes of GIS.
 
-3)	GIS as a science: Geographic Information Scientists focus on problems that predate GIS but are more pressing because of it.
+3) GIS as a science: Geographic Information Scientists focus on problems that predate GIS but are more pressing because of it.
 Those problems include spatial analysis, data uncertainty & error, looking for new ways to analyze spatial data, among other analytical geographic topics.
 Essentially, GIScience is a more theoretical approach to using GIS which seeks to expand not just our tools’ capabilities, but also the theory behind those tools.
 
