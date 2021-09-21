@@ -12,7 +12,7 @@ GIS analysts would perform the same spatial analysis to solve the same problems.
 In this manner, the debate seems like a dispute over mere semantics.
 
 And let’s be frank: this distinction really is about semantics.
-But as Wright et al aptly point out in *Demystifying the Persistent Ambiguity of GIS as ‘Tool’ versus ‘Science’*, semantics matters^1.
+But as Wright et al aptly point out in *Demystifying the Persistent Ambiguity of GIS as ‘Tool’ versus ‘Science’*, semantics $$matters^1$$.
 According to these academics, the term, “science”, often serves “as a rather crude but convenient shorthand for academic legitimacy.”
 The notion of a Geographic Information *Science* helps secure funding and academic recognition for research and instruction surrounding Geographic Information *Systems*.
 One illustration of this came up in class today, when Professor Holler mentioned that the classification of GIS as a *science* allows geographers, including him, to take grants from one of the largest funders of academic research, the National Science Foundation.
