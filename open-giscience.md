@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What is Open GiScience?
+title: Is GIS a Science?
 ---
 
 In this post, I’ll explore the question: does working with GIS qualify as “science”?
