@@ -33,3 +33,4 @@ Image with a link:
 ## Blog Posts
 
 1. [Open GIScience](open-giscience)
+2. [Reproducibility Crisis](Reproducibility-crisis)
