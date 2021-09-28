@@ -33,4 +33,4 @@ Image with a link:
 ## Blog Posts
 
 1. [Is GIS a Science?](open-giscience)
-2. [Reproducibility Crisis](Reproducibility-crisis)
+2. [The Role of Open Source GIS in Resolving the Reproducibility Crisis](Reproducibility-crisis)
