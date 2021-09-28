@@ -22,9 +22,8 @@ To prevent researchers from inadvertently publishing falsehoods, research ought 
 While the current publishing model benefits from a long-held peer review process, this process fails to ensure adequate reproducibility and replicability.
 Researchers write code to analyze large datasets, but they are required to submit neither their code nor their data when they submit articles for publication.
 This leaves peer reviewers, and later the general public, to evaluate only the written word.
-In today's data- and computation-heavy research world, this is outrageous!
-Without adequate documentation, it is impossible to evaluate the methodology and data analysis of many studies, much less fully reproduce and replicate them.
-Unfortunately, rather than promoting full review, the current publishing model hinders it.
+Without adequate documentation of code and data, it is impossible to evaluate the methodology and data analysis of many studies, much less fully reproduce and replicate them.
+In this manner, rather than promoting thorough and complete review, the current publishing model hinders it.
 
 Moreover, our academic model creates an incentive structure that promotes bias and necessitates better review.
 Publishing a paper in a prestigious journal, such as *Nature* and *Science*, is key to establishing a reputation in the scientific world.
