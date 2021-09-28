@@ -71,19 +71,10 @@ However, at the end of the day, reproducibility and replicability are primarily 
 
 **References:**
 
-- Rey, S. J. (2009). Show me the code: Spatial analysis and open source. *Journal of Geographical Systems*, 11(2), 191–207. https://doi.org/10.1007/s10109-009-0086-8
+- Rey, S. J. (2009). Show me the code: Spatial analysis and open source. *Journal of Geographical Systems*, 11(2), 191–207. [https://doi.org/10.1007/s10109-009-0086-8](https://doi.org/10.1007/s10109-009-0086-8)
 
-- National Academies of Sciences, Engineering, and Medicine 2019. *Reproducibility and Replicability in Science*. Washington, DC: The National Academies Press. https://doi.org/10.17226/25303
+- National Academies of Sciences, Engineering, and Medicine 2019. *Reproducibility and Replicability in Science*. Washington, DC: The National Academies Press. [https://doi.org/10.17226/25303](https://doi.org/10.17226/25303)
 
-- Sui, D., & Kedron, P. (2021). Reproducibility and Replicability in the Context of the Contested Identities of Geography. *Annals of the American Association of Geographers*, 111(5), 1275–1283. https://doi.org/10.1080/24694452.2020.1806024
+- Sui, D., & Kedron, P. (2021). Reproducibility and Replicability in the Context of the Contested Identities of Geography. *Annals of the American Association of Geographers*, 111(5), 1275–1283. [https://doi.org/10.1080/24694452.2020.1806024](https://doi.org/10.1080/24694452.2020.1806024)
 
-- Singleton, A. D., Spielman, S., & Brunsdon, C. (2016). Establishing a framework for Open Geographic Information science. *International Journal of Geographical Information Science*, 30(8), 1507–1521. https://doi.org/10.1080/13658816.2015.1137579
-
-
-
-
-- Important question: how do we reproduce and replicate academic results when results derive from non-scientific modes of inquiry?
-What would the sources of non-reproducibility and non-replicability be in those circumstances?
-
-
-```
+- Singleton, A. D., Spielman, S., & Brunsdon, C. (2016). Establishing a framework for Open Geographic Information science. *International Journal of Geographical Information Science*, 30(8), 1507–1521. [https://doi.org/10.1080/13658816.2015.1137579](https://doi.org/10.1080/13658816.2015.1137579)
