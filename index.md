@@ -32,5 +32,5 @@ Image with a link:
 
 ## Blog Posts
 
-1. [Open GIScience](open-giscience)
+1. [Is GIS a Science?](open-giscience)
 2. [Reproducibility Crisis](Reproducibility-crisis)
