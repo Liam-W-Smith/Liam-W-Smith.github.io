@@ -54,6 +54,6 @@ I’m thrilled to explore the toolmaking and scientific world of GIS, and will b
 
 **References:**
 
-1. Dawn J. Wright , Michael F. Goodchild & James D. Proctor (1997) Demystifying the Persistent Ambiguity of GIS as ‘Tool’ versus ‘Science’, , 87:2, 346-362, DOI: 10.1111/0004-5608.872057
+- Wright, D. J., Goodchild, M. F., & Proctor, J. D. (1997). Demystifying the Persistent Ambiguity of GIS as ‘Tool’ versus ‘Science.’ *Annals of the Association of American Geographers*, 87(2), 346–362. [https://doi.org/10.1111/0004-5608.872057](https://doi.org/10.1111/0004-5608.872057)
 
-2. National Academies of Sciences, Engineering, and Medicine 2019. Reproducibility and Replicability in Science. Washington, DC: The National Academies Press. https://doi.org/10.17226/25303.
+- National Academies of Sciences, Engineering, and Medicine 2019. *Reproducibility and Replicability in Science*. Washington, DC: The National Academies Press. [https://doi.org/10.17226/25303](https://doi.org/10.17226/25303)
