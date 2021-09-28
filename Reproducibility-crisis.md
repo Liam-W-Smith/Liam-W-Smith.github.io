@@ -47,7 +47,6 @@ Troubleshooting for others, posting novel techniques and results that can be eva
 Because one's work is inherently subject to thorough review and one's reputation depends on how useful they are to others, open source GIS realigns the incentive structure to favor honesty over bias and collaboration over individualism.
 This paradigm shift in the incentive structure of academia would reduce the liability of researchers to exaggerate their findings, thus reducing the urgency of the reproducibility crisis.
 
-#but Open Source GIS struggles to solve...
 In the field of geography, studies may be non-replicable or non-reproducible for the standard reasons, such as the unavailability of data and methodology.
 However, studies could also fail to be reproducible or replicable for reasons beyond any open source fix.
 Geography has traditionally and continues to integrate several ways of knowing, including non-scientific ones, which pose challenges to reproducibility and replicability carefully.
@@ -65,10 +64,10 @@ But this would constitute a very limited reproduction, since there would be no c
 Other idiographic studies would be completely impossible to reproduce.
 How, for example, would one reproduce an analysis of the cultural differences between two regions?
 There is no code to run and no methodology to follow -- reproduction simply doesn't make sense.
-The use of open source GIS does not inherently make idiographic approaches more replicable
-because geographic processes may depend on the location and time.
+The use of open source GIS does not inherently make idiographic approaches more replicable or reproducible, because such processes may depend on the location and time or be humanistic in nature.
 
-
+The current publishing and academic models provide insufficient opportunities for reproducibility and replicability, but in the field of geography, Open Source GIS has the potential to markedly improve these efforts.
+However, at the end of the day, reproducibility and replicability are primarily relevant to nomothetic inquiry, and it is difficult to imagine how one could reproduce and replicate most idiographic work, even with the assistance of open source GIS.
 
 **References:**
 
