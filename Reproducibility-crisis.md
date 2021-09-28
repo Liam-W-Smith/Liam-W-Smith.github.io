@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reproducibility Crisis
+title: The Role of Open Source GIS in Resolving the Reproducibility Crisis
 ---
 
 In recent years, the reproducibility crisis has garnered the attention of the popular media and the concern of the scientific community.
