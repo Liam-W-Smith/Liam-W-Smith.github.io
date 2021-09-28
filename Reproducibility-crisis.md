@@ -59,15 +59,13 @@ In the field of geography, the nomothetic approach manifests in efforts to deriv
 Reproducibility and replicability make sense in nomothetic contexts, and consequently are practiced in scientific fields from physics to economics to spatial analysis.
 But how do we utilize replicability and reproducibility in idiographic contexts?
 This is an open and prominent question in geography.
-Analyzing and theorizing about the differences between regions is simply not conducive to replication and reproducibility.
-What would it mean, for example, to replicate an analysis of the cultural differences between two regions?
-There is no code to run and no methodology to follow.
-Sui and Kedron suggest that geography can be subject to reproduction and replication when idiographic and nomothetic methods are merged, but idiographic analysis alone is impossible to analyze in this way.
-Unfortunately,
-
-
-
-- The use of open source GIS does not inherently make idiographic approaches more replicable
+Analyzing and theorizing about the differences between regions is not really conducive to replication and reproducibility.
+Open Source GIS could help to some extent; for example, if an idiographic study were to use open source GIS software to map different patterns in different regions, then one could use the openly disclosed workflow to reproduce that map.
+But this would constitute a very limited reproduction, since there would be no computation and statistical analysis to reproduce.
+Other idiographic studies would be completely impossible to reproduce.
+How, for example, would one reproduce an analysis of the cultural differences between two regions?
+There is no code to run and no methodology to follow -- reproduction simply doesn't make sense.
+The use of open source GIS does not inherently make idiographic approaches more replicable
 because geographic processes may depend on the location and time.
 
 
