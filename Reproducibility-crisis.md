@@ -35,8 +35,8 @@ The field of geography has ignored the issues of reproducibility and replicabili
 In traditional academic settings, researchers work alone or in small teams and solicit feedback only when submitting an article for peer review.
 In contrast, in the open source world, researchers regularly upload their code and ask the open source community for feedback troubleshooting help.
 In this manner, one's methodology remains public information, making it much easier for others to reproduce and replicate one's work.
-Ideally, journals would mandate the disclosure of data, workflows, and statistical analysis in journal submissions, but that appears unlikely to occur for the foreseeable future.
-Absent these changes, the open source community provides a great opportunity for researchers to make their studies transparent for the time being.
+Ideally, journals would mandate the disclosure of data, workflows, and statistical analysis in journal submissions, but that appears unlikely to occur in the foreseeable future.
+Absent these changes, the open source community provides a great platform for researchers to make their studies transparent.
 Moreover, even if journals were to make the appropriate changes, sharing methodology and code on open source platforms would be of enormous help.
 The sad reality is that publishing a journal article is a lengthy process that can take over a year.
 If geographers shared their GIS code on open source platforms, then other researchers could conduct reproducibility and replicability analyses immediately, rather than waiting for the study to -- *potentially* -- be published in a journal sometime in the next year.
@@ -48,8 +48,8 @@ This paradigm shift in the incentive structure of academia would reduce the liab
 
 In the field of geography, studies may be non-replicable or non-reproducible for the standard reasons, such as the unavailability of data and methodology.
 However, studies could also fail to be reproducible or replicable for reasons beyond any open source fix.
-Geography has traditionally and continues to integrate several ways of knowing, including non-scientific ones, which pose challenges to reproducibility and replicability carefully.
-Specifically, geography is said to benefit from both idiographic and nomothetic approaches to knowledge.
+Geography has traditionally and continues to integrate several ways of knowing, including non-scientific ones, which pose challenges to reproducibility and replicability.
+Specifically, geography benefits from both idiographic and nomothetic approaches to knowledge.
 The idiographic approach to knowledge, described by Kant as a tendency to specify, is when one looks for categorical ways to distinguish different phenomena from each other.
 Geography exemplifies this mode of inquiry because it seeks to analyze and distinguish between different regions.
 The nomothetic approach to knowledge, described by Kant as a tendency to generalize, is when one looks for laws that transcend place and time.
@@ -57,16 +57,16 @@ In the field of geography, the nomothetic approach manifests in efforts to deriv
 Reproducibility and replicability make sense in nomothetic contexts, and consequently are practiced in scientific fields from physics to economics to spatial analysis.
 But how do we utilize replicability and reproducibility in idiographic contexts?
 This is an open and prominent question in geography.
-Analyzing and theorizing about the differences between regions is not really conducive to replication and reproducibility.
+Analyzing and theorizing about the differences between regions is not really conducive to replication and reproduction.
 Open Source GIS could help to some extent; for example, if an idiographic study were to use open source GIS software to map different patterns in different regions, then one could use the openly disclosed workflow to reproduce that map.
 But this would constitute a very limited reproduction, since there would be no computation and statistical analysis to reproduce.
 Other idiographic studies would be completely impossible to reproduce.
 How, for example, would one reproduce an analysis of the cultural differences between two regions?
 There is no code to run and no methodology to follow -- reproduction simply doesn't make sense.
-The use of open source GIS does not inherently make idiographic approaches more replicable or reproducible, because such processes may depend on the location and time or be humanistic in nature.
+The use of open source GIS does not inherently make idiographic approaches more replicable or reproducible, because such processes may depend on location and time or be humanistic in nature.
 
 The current publishing and academic models provide insufficient opportunities for reproducibility and replicability, but in the field of geography, Open Source GIS has the potential to markedly improve these efforts.
-However, at the end of the day, reproducibility and replicability are primarily relevant to nomothetic inquiry, and it is difficult to imagine how one could reproduce and replicate most idiographic work, even with the assistance of open source GIS.
+However, reproducibility and replicability are primarily relevant to nomothetic inquiry, and it is difficult to imagine how one could reproduce and replicate most idiographic work, even with the assistance of open source GIS.
 
 **References:**
 
