@@ -7,10 +7,10 @@ In recent years, the reproducibility crisis has garnered the attention of the po
 In today's blog post, I'd like to discuss the reproducibility crisis in the context of geography and evaluate the extent to which open source GIS might address the issue.
 
 First, let's define a few key terms.
-The *reproducibility crisis* is the dilemma that scientific studies tend to be difficult to *reproduce* and *replicate*.
+The ***reproducibility crisis*** is the dilemma that scientific studies tend to be difficult to ***reproduce*** and ***replicate***.
 Various definitions of reproducibility and replicability are used in different academic circles, but for the purposes of this blog post, we'll use the definitions set forth by the Committee on Reproducibility and Replicability in Science.
-According to the committee, *Reproducibility* refers to "obtaining consistent results using the same input data, computational steps, methods, and code, and conditions of analysis."
-And *Replicability* refers to "obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data."
+According to the committee, ***Reproducibility*** refers to "obtaining consistent results using the same input data, computational steps, methods, and code, and conditions of analysis."
+And ***Replicability*** refers to "obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data."
 In other words, a study is reproducible when an independent reviewer can follow the study's data and methodology to the same result, and a study is replicable when another researcher can obtain the same result by conducting their own study.
 
 Non-reproducibility and non-replicability pose significant risks for the scientific community.
