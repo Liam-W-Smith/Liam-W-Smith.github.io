@@ -34,3 +34,4 @@ Image with a link:
 
 1. [Is GIS a Science?](open-giscience)
 2. [The Role of Open Source GIS in Resolving the Reproducibility Crisis](Reproducibility-crisis)
+3. [Error and Uncertainty](error-and-uncertainty)
