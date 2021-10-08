@@ -30,6 +30,9 @@ Just an image:
 Image with a link:
 [![GitHub Logo](assets/GitHub-Mark-120px-plus.png)](https://github.com/)
 
+## GIS analyses
+1. [Flood Risk and Food Security in Dar Es Salaam](Dar-Es-Salaam-Vulnerability/report)
+
 ## Blog Posts
 
 1. [Is GIS a Science?](open-giscience)
