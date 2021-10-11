@@ -31,7 +31,7 @@ Image with a link:
 [![GitHub Logo](assets/GitHub-Mark-120px-plus.png)](https://github.com/)
 
 ## GIS Analyses
-1. [Flood Risk and Food Security in Dar Es Salaam](/Dar-Es-Salaam-Vulnerability/report)
+1. [Flood Risk and Food Access in Dar Es Salaam](/Dar-Es-Salaam-Vulnerability/report)
 
 ## Blog Posts
 
