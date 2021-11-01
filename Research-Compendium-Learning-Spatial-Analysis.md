@@ -1,46 +1,47 @@
 ---
 layout: page
-title: Research Compendiums as a Tool to Learn Spatial Analysis
+title: Research Compendia as a Tool to Learn Spatial Analysis
 ---
-Draw on specific examples from the Kang et al (2020) accessibility study and its associated research compendium and computational notebooks. LOOK FOR WAYS TO INTEGRATE THIS
+As described in previous blog posts, it is difficult, if not impossible, to reproduce many geospatial studies.
+Even our top geospatial researchers find that the contents of academic journal articles provide insufficient information from which to deduce the authors' workflow.
+Researchers today are beginning to use *reproducible research notebooks* and *cyberinfrastructure* to resolve these issues.
 
-Does the reproduction study with a research compendium in CyberGIS facilitate learning spatial analysis? How?
-- yes, the research compendium compiled in the reproduction study is very helpful for students learning spatial analysis.
-- As detailed in previous blog posts, it is difficult, even for our top researchers, to deduce one's workflow from an academic study.
-- For students who are inexperienced with GIS, it is even more challenging.
-- Research compendia with detailed instructions for running one's code makes things easier.
-- In the example we have been looking at in class, all of the code required to accomplish the analysis is provided.
-- it is still difficult to understand everything going on in the code, but it is far easier than trying to derive the workflow given a mere description of the study.
-- ELABORATE. MAYBE USE SPECIFIC EXAMPLES.
+A *reproducible research notebook* is a virtual notebook containing the data, code, and outputs of a formal research study.
+By gathering the code, comments, and output all in one location, a research compendium makes it crystal-clear what the researchers are doing and how they are doing it.
+With the click of a button, users can run the code that computes the researchers' results, generating a complete computational replication of their analysis.
 
-Are there ways in which the research compendium could be improved to better facilitate learning? How?
-- In order to learn from reading the code in a research compendium, one must understand what the code is doing and how the code works.
-- Currently, the .ipynb file documenting pre-processing of data is very well commented, with a line of comments before every major operation in the code.
-- The .ipynb files with the original analysis and the reanalysis are not quite as detailed with their comments.
-- Both files contain comments at the beginning of most code chunks, which describe, generally, what the code in each chunk will accomplish.
-- This information is helpful, but it could be more helpful.
-- As code chunks lengthen, it quickly becomes difficult to track what each individual line of code is doing.
-- For example, in both the original analysis and the reanalysis, the code chunk defining the function, 'network_setting', includes over 30 lines of code, but only a handful of comments, most of which relate merely to the units of analysis.
-- A few comments describing the purpose of different lines of code would go a long way towards making the code more digestable for students.
+*Cyberinfrastructure* refers to the distribution of high-powered information technology which can be accessed from around the world.
+Cyberinfrastructure is essential for *CyberGIS*, which is geospatial analysis that draws on the computational power of cyberinfrastructure.
+Cutting edge geospatial researchers take advantage of both research compendia and CyberGIS by publishing research notebooks on cyberinfrastructure platforms.
+Reproducible research notebooks in CyberGIS environments allow individuals to run spatial analyses confirming the computational reproducibility of complex studies on cyberinfrastructure from their own personal computers.
 
-ADD MORE
-- Coming from a math background, I feel like I should understand everything I'm doing -- deriving from first principles.
-SO this way of learning was strange for me.
-
-**Notes on Reading**
-- Cyberinfrastructure refers to the distribution of high-powered information technology and experienced users.
-Cyberinfrastructure is essential for CyberGIS, which essentially is geospatial analysis that draws on the computational power of cyberinfrastructure.
 A prevalent example of CyberGIS is the CyberGISX project, which allows individuals across the country, including us students at Middlebury College, to run GIS code on the same bank of supercomputers used by researchers at the University of Illinois Urbana-Champaign.
 This CyberGIS project, and others like it, aim to create a collaborative, distributed, and large scale geospatial community running GIS analyses on high performance supercomputers.
-- There are many opporunities to mutually advance cyberinfrastructure and CyberGIS, but there are also challenges.
-One of the most concerning challenges today results from the proliferation of data sources, from remote sensing to social media data.
-While these data may provide significant insight into physical and human geographic processes, the proliferation of data has also outpaced the creation of metadata.
-Too often, data is published without sufficient information regarding its provenance and quality.
-Innovation in the CyberGIS and cyberinfrastructure realms may be needed in order to address these issues.
 
-DONE
+While it's difficult for geospatial researchers to reproduce studies without a research notebook, it's even more challenging for students.
+For Open Source GIS last week, we read Kang et al's paper, *Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA*.
+During class, we did our best to create a workflow that could achieve the results from the paper.
+The paper included a few spatial analysis techniques which I was not familiar with (i.e. egocentric graphs and the Enhanced Two-Step Floating Catchment Area method), and I think it's fair to say I could not have generated the workflow on my own.
+But with some help from Derrick, who has worked with the paper's research compendium extensively, I found that I could understand, generally, the process by which the authors performed their analysis.
 
-maybe I should add something explaining the computatonal notebook side of it?
+In lab, we proceeded to review the study's Jupyter Notebook on CyberGISX, which includes the code and data necessary to complete their analysis.
+As we reviewed their analysis to see how they implemented our workflow diagram with code, the complexity of the analysis became more and more apparent to me.
+It's one thing to generate a workflow diagram that is implementable in QGIS; it's a completely different animal to code GIS analyses in Python.
+Functions that are conceptually simple on paper can take 50 lines of code to implement with Python.
+The fact that the compendium provided me with the code allowed me to understand the study's geospatial analysis at a level that would take days and days of work without it.
+
+In order for a student to learn from reading the code in a research compendium, they must understand how that code works.
+Including descriptions before and comments within code chunks is the most effective way for a code writer to communicate code for learning.
+In the Kang et al reproduction notebook, the pre-processing file very well commented, with a line of comments before every major operation in the code.
+The original analysis and the reanalysis files are not as detailed with their comments; they tend to include comments at the beginning of code chunks describing what the code will accomplish, with less information within the code.
+As code chunks lengthen, it quickly becomes difficult to keep track of the purpose of each individual line of code.
+For example, in both the original analysis and the reanalysis, the code chunk defining the function, 'network_setting', includes over 30 lines of code but only a handful of comments, most of which relate merely to the units of analysis.
+Additional comments describing the purpose of different lines of code would go a long way towards making the code more digestable for students.
+
+
+HERE I DIFFERENTIATE BETWEEN A COMPUTATIONAL REPRODUCTION AND A CREDIBILITY REPRODUCTION
+
+
 
 **Video**
 Reproduction for computability vs reproduction for credibility.
@@ -59,10 +60,7 @@ However, I can't say that I understand what all of the code is doing.
 That would require a much more extensive dive into the code, and would be much easier if there were more detailed comments.
 
 
-
-
-
-
-
 **References**
 - Wang, S. (2019). Cyberinfrastructure. The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2019 Edition), John P. Wilson (Ed.). DOI: 10.22224/gistbok/2019.2.4
+- Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. International Journal of Health Geographics 19 (1):1–17. DOI:10.1186/s12942-020-00229-x.
+- Kedron, Peter and Joseph Holler, 2021-08-23, Geospatial Fellows Webinar Series: [Working with students to reproduce COVID-19 research to establish the credibility of findings and accelerate policymaker adoption](https://aag-geospatialfellows-series.secure-platform.com/a/solicitations/16/sessiongallery/250)
