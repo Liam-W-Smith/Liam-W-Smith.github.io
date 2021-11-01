@@ -38,27 +38,18 @@ As code chunks lengthen, it quickly becomes difficult to keep track of the purpo
 For example, in both the original analysis and the reanalysis, the code chunk defining the function, 'network_setting', includes over 30 lines of code but only a handful of comments, most of which relate merely to the units of analysis.
 Additional comments describing the purpose of different lines of code would go a long way towards making the code more digestable for students.
 
+It's also important to note the difference between a reproduction for computability and a reproduction for credibility.
+In a reproduction for computability, the methods and results are assumed to be correct and only the computations are verified.
+Granted sufficient code, such as the notebook for the Kang et al. study, one can compute all of the results of an initial study without really understanding the motive for using every method.
+A reproduction for credibility, however, demands a more critical approach in which one considers the validity of all methods in the study.
+A reproduction for credibility is a more substantial task intellectually.
 
-HERE I DIFFERENTIATE BETWEEN A COMPUTATIONAL REPRODUCTION AND A CREDIBILITY REPRODUCTION
+As a class, we conducted a computational reproduction of the Kang et al. study before evaluating its credibility.
+For both researchers and learners, I think this method has merit.
+By skimming through the code and discovering what the code outputs, one familiarizes themself with both the study and the CyberGIS environment.
 
-
-
-**Video**
-Reproduction for computability vs reproduction for credibility.
-Granted sufficient code, one can compute all of the results of an initial study without really understanding the motive for using every method.
-Reproduction for credibility, however, demands a more critical approach.
-In addition to assessing whether the same computations lead to the same result, a reproduction for credibility involves critically examining the reason for every computation in order ensure accuracy.
-In a reproduction for computability, the methods and results are assumed to be correct.
-In a reproduction for credibility, one focuses on all aspects of the study.
-
-It is useful for students to conduct a computational reproduction before diving into the details of whether or not the methodology is sound, because it provides some context for the study.
-In class last week, we all worked together to generate a workflow for the original study.
-I found this to be very conceptually helpful.
-Looking over the code in the Jupyter notebook, we saw how the authors implemented that workflow with Python code.
-For this reason, I feel pretty confident about my conceptual understanding of the process.
-However, I can't say that I understand what all of the code is doing.
-That would require a much more extensive dive into the code, and would be much easier if there were more detailed comments.
-
+While they are seldom perfect (especially when it comes to commenting their code), research notebooks with CyberGIS appear to improve reproducibility and make geospatial research easier to digest.
+As academics increasingly document their work with online research compendia, geospatial knowledge is sure to become more accessible to fellow academics, students, and the general public.
 
 **References**
 - Wang, S. (2019). Cyberinfrastructure. The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2019 Edition), John P. Wilson (Ed.). DOI: 10.22224/gistbok/2019.2.4
