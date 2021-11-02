@@ -39,9 +39,12 @@ Derrick's notes 6***
 
 ## Results and Discussion
 
-first column | second column
-:------------ | ------------:
-![Searching for Spatial Autocorrelation in my Erroneous Results](assets/Kang_OG_Reproduction/pop_hospital_icu_beds_classified.png) | ![Searching for Spatial Autocorrelation in my Erroneous Results](assets/Kang_Class_Reproduction/pop_hospital_icu_beds_classified.png)
+
+![Searching for Spatial Autocorrelation in my Erroneous Results](assets/Kang_OG_Reproduction/pop_icu_class.png)
+![Searching for Spatial Autocorrelation in my Erroneous Results](assets/Kang_Class_Reproduction/pop_icu_class.png)
+
+![Searching for Spatial Autocorrelation in my Erroneous Results](assets/Kang_OG_Reproduction/pop_vents_class.png)
+![Searching for Spatial Autocorrelation in my Erroneous Results](assets/Kang_Class_Reproduction/pop_vents_class.png)
 
 
 You can find my complete reproduction repository [here](https://github.com/Liam-W-Smith/RPr-Kang-2020).
