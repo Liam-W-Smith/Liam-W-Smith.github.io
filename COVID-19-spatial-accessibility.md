@@ -97,16 +97,24 @@ atrisk_data = tract_geom.merge(at_risk_csv, how='inner', on='AFFGEOID')
 ```
 
 ## Results and Discussion
+Upon running the code with our updated residential dataset, we generated new figures, some of which differ significantly from the original results.
+Since we did not address the spatial extent of the COVID-19 case data, I am excluding COVID-19 accessibility maps from this report.
+The following maps reveal the accessibility of ICU beds and ventilators to vulnerable populations in Chicago.
+
+### Accessibility of ICU Beds to Vulnerable Populations
+#### Original Figure
+![Accessibility of ICU Beds to Vulnerable Populations, original figure](assets/Kang_OG_Reproduction/pop_icu_class.png)
+#### Updated Figure
+![Accessibility of ICU Beds to Vulnerable Populations, updated figure](assets/Kang_Class_Reproduction/pop_icu_class.png)
+
+### Accessibility of Ventilators to Vulnerable Populations
+#### Original Figure
+![Accessibility of Ventilators to Vulnerable Populations, original figure](assets/Kang_OG_Reproduction/pop_vents_class.png)
+#### Updated Figure
+![Accessibility of Ventilators to Vulnerable Populations, updated figure](assets/Kang_Class_Reproduction/pop_vents_class.png)
 
 
-![Searching for Spatial Autocorrelation in my Erroneous Results](assets/Kang_OG_Reproduction/pop_icu_class.png)
-![Searching for Spatial Autocorrelation in my Erroneous Results](assets/Kang_Class_Reproduction/pop_icu_class.png)
-
-![Searching for Spatial Autocorrelation in my Erroneous Results](assets/Kang_OG_Reproduction/pop_vents_class.png)
-![Searching for Spatial Autocorrelation in my Erroneous Results](assets/Kang_Class_Reproduction/pop_vents_class.png)
-
-
-You can find my complete reproduction repository [here](https://github.com/Liam-W-Smith/RPr-Kang-2020).
+If you would like more information regarding the processes and results of this reproduction, please see my complete reproduction repository [here](https://github.com/Liam-W-Smith/RPr-Kang-2020).
 
 
 
