@@ -4,6 +4,7 @@ title: Main page
 ---
 ## GIS Analyses
 1. [Flood Risk and Food Access in Dar Es Salaam](/Dar-Es-Salaam-Vulnerability/report)
+2. [Spatial Accessibility of COVID-19 Healthcare Resources in Chicago](COVID-19-spatial-accessibility)
 
 ## Blog Posts
 
