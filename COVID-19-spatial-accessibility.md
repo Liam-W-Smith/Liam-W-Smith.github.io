@@ -104,7 +104,7 @@ Darker blue represents higher spatial accessibility and lighter blue represents 
 #### Updated Figure
 ![Accessibility of ICU Beds to Vulnerable Populations, updated figure](assets/Kang_Class_Reproduction/pop_icu_class.png)
 Note that the extents of the darker blues are much smaller in the updated figure, especially in the northwest and southwest.
-The new figure even includes a light blue in the northwest, which was a darker shade in the original figure.
+The new figure also includes a section of light blue in the northwest, which was a darker shade in the original figure.
 We will discuss these results further after reviewing the second set of figures.
 
 ### Accessibility of Ventilators to Vulnerable Populations
@@ -112,8 +112,8 @@ We will discuss these results further after reviewing the second set of figures.
 ![Accessibility of Ventilators to Vulnerable Populations, original figure](assets/Kang_OG_Reproduction/pop_vents_class.png)
 #### Updated Figure
 ![Accessibility of Ventilators to Vulnerable Populations, updated figure](assets/Kang_Class_Reproduction/pop_vents_class.png)
-Similar to the first set of figures, the extents of the darker blues are smaller in the updated figure in the northwest and southwest.
-The new figure also includes a light blue in the northwest, where the original figure had been darker.
+Similar to the first set of figures, the extents of the darker blues are smaller in the updated figure than in the original figure, especially in the northwest and southwest.
+The new figure also includes a section of light blue in the northwest, where the original figure had been darker.
 
 For both ICU beds and ventilators, the original and updated figures are similar on the east side, but differ significantly in the northwest and southwest.
 These differences makes sense.
@@ -121,12 +121,18 @@ Because Chicago borders Lake Michigan on the east and it takes time to drive to 
 With a similar number of people accessing hospital services, the spatial accessibility of those services remains similar for individuals who live in eastern Chicago.
 However, our adjusted residential dataset does impact the accessibility of hospitals for residents in western, northern, and southern Chicago.
 The hospitals in these parts of Chicago are less isolated from suburban residents, as they can drive to these hospitals in less time.
-Incorporating those suburban residents into our analysis thus increases the demand for hospital services in western, northern, and southern Chicago.
+Incorporating those suburban residents into our analysis increases the perceived demand for hospital services in western, northern, and southern Chicago.
 With more people accessing hospital services, it is more difficult for any one individual to access those services, and the spatial accessibility measure mapped by our figures declines accordingly.
+
+The differences between the original and updated figures highlight the inaccuracies that boundary effects introduce to Kang et al's results.
+In their paper, Kang et al include hospitals within 15 miles of the city, but not the residents.
+Since residents outside of the city also use hospitals within the city, the authors appear to have neglected an important boundary effect.
+Our updated analysis accounts for this issue and illustrates that the surrounding populations significantly impact the spatial accessibility of healthcare resources within the city.
 
 If you would like more information regarding the processes and results of this reproduction, please see my complete reproduction repository [here](https://github.com/Liam-W-Smith/RPr-Kang-2020).
 
 ## Conclusions
+THIS IS IT!
 *the barriers that pre-processing steps pose to reproducibility (how difficult it can be to find the right census tables if the exact codes aren't provided)*
 *the censusdata package issue we encountered (can't reproduce something if the package is no longer working!)*
 *(((incorporate value of Open Source GIScience/complementing the original authors)))(((comment code)))*
