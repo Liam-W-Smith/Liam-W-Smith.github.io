@@ -38,7 +38,7 @@ Required Python packages include numpy, pandas, geopandas, networkx, OSMnx, shap
 Derrick's notes 6***
 
 ## Our Additions to the Code
-```Python
+```python
 # Load data for tract geometry
 tract_geom = gpd.read_file('./data/raw/public/ReanalysisClass/cb_2018_17_tract_500k.shp')
 tract_geom.head()
