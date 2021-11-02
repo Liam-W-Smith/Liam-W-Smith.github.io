@@ -52,7 +52,7 @@ at_risk_csv = tract_dem[["GEO_ID", "NAME", "B01001_001E", "B01001_016E", "B01001
 #Note: after a certain number of column names, atom becomes convinced that you're done with your code chunk. For this reason, I left out the last few columns in the code above, but they ought to be included when running the code.
 
 # Find the number of columns in dataframe
-len(at_risk_csv.columns)```
+len(at_risk_csv.columns)
 
 # Sum all of the counts for individuals who are 50 years or older
 at_risk_csv['OverFifty'] = at_risk_csv.iloc[:, 3:23].sum(axis = 1)
