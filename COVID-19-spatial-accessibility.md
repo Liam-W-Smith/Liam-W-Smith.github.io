@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spatial Accessibility of COVID-19 Healthcare Resources in Chicago
+title: Spatial Accessibility of Healthcare Resources in Chicago
 ---
 ## Introduction
 In *Rapidly Measuring Spatial Accessibility of COVID-19 Healthcare Resources: A Case Study of Illinois, USA*, Kang et al. use the Enhanced Two-Step Floating Catchment Area (E2SFCA) method with parallel processing to assess the accessibility of ICU beds and ventilators to vulnerable populations -- defined as individuals of 50 years of age or older -- and COVID-19 patients in Illinois.
@@ -38,6 +38,12 @@ Required Python packages include numpy, pandas, geopandas, networkx, OSMnx, shap
 Derrick's notes 6***
 
 ## Our Additions to the Code
+To address our concern that individuals who live outside of Chicago might also use the hospital services within Chicago, we reconfigured the pre-processing of residential data in order to include households in the suburbs.
+Once we adjusted the input data, we simply re-ran the analysis to generate new results.
+Since the road network in the Jupyter notebook already included roads within a 15 mile buffer, we knew that the network analysis would work with our new residential dataset.
+Furthermore, since the code joins the centroids of census tracts that intersect catchment areas, we know that including superfluous residential information in our input dataset will not bring superfluous residential information into our results; residences that are located outside of the catchment areas simply are not counted.
+For this reason, we extended the pool of demographic information drastically, such that it includes the tracts in all of the counties neighboring Cook county.
+
 Our additions to the code can be found in [/procedure/code/04-Class-Reanalysis.ipynp](https://github.com/Liam-W-Smith/RPr-Kang-2020/blob/main/procedure/code/04-Class-Reanalysis.ipynb) under the "Population and COVID-19 Cases Data by County" subheading and our new figures are under [/results/figures/reproduction](https://github.com/Liam-W-Smith/RPr-Kang-2020/tree/main/results/figures/reproduction) and are copied below for convenience:
 
 ```python
