@@ -37,6 +37,57 @@ Required Python packages include numpy, pandas, geopandas, networkx, OSMnx, shap
 (((comment code)))
 Derrick's notes 6***
 
+## Our Additions to the Code
+```Python
+# Load data for tract geometry
+tract_geom = gpd.read_file('./data/raw/public/ReanalysisClass/cb_2018_17_tract_500k.shp')
+tract_geom.head()
+
+# Load data for Census Demographics
+tract_dem = pd.read_csv('./data/raw/public/ReanalysisClass/real_data_census_illinois.csv', sep=",", skiprows = [1, 1])
+tract_dem.head()
+
+# Extract the following columns: S0101_C01_001E, S0101_C01_012E, S0101_C01_013E, S0101_C01_014E, S0101_C01_015E, S0101_C01_016E, S0101_C01_017E, S0101_C01_018E, S0101_C01_019E
+at_risk_csv = tract_dem[["GEO_ID", "NAME", "B01001_001E", "B01001_016E", "B01001_017E", "B01001_018E", "B01001_019E", "B01001_020E", "B01001_021E", "B01001_022E", "B01001_023E", "B01001_024E", "B01001_025E", "B01001_040E", "B01001_041E", "B01001_042E", "B01001_043E", "B01001_044E"]]
+#Note: after a certain number of column names, atom becomes convinced that you're done with your code chunk. For this reason, I left out the last few columns in the code above, but they ought to be included when running the code.
+
+# Find the number of columns in dataframe
+len(at_risk_csv.columns)```
+
+# Sum all of the counts for individuals who are 50 years or older
+at_risk_csv['OverFifty'] = at_risk_csv.iloc[:, 3:23].sum(axis = 1)
+
+# create new pop column with a more useful name
+at_risk_csv['TotalPop'] = at_risk_csv['B01001_001E']
+
+# drop columns to clean the data set
+at_risk_csv = at_risk_csv.drop(at_risk_csv.columns[2:23], axis =1)
+
+# rename col to join
+newnames = {"GEO_ID":"AFFGEOID"}
+at_risk_csv = at_risk_csv.rename(columns = newnames)
+
+# check projection
+print(tract_geom.crs)
+
+# transform CRS
+tract_geom = tract_geom.to_crs(epsg=4326)
+
+# check projection
+print(tract_geom.crs)
+
+# select tracts in Cook County and in counties adjacent to Cook County
+tract_geom = tract_geom.loc[(tract_geom["COUNTYFP"] == '031')|
+                            (tract_geom["COUNTYFP"] == '089')|
+                            (tract_geom["COUNTYFP"] == '197')|
+                            (tract_geom["COUNTYFP"] == '043')|
+                            (tract_geom["COUNTYFP"] == '097')|
+                            (tract_geom["COUNTYFP"] == '111')]
+
+# perform an inner join based on AFFGEOID columns
+atrisk_data = tract_geom.merge(at_risk_csv, how='inner', on='AFFGEOID')
+```
+
 ## Results and Discussion
 
 
