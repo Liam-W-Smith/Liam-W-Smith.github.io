@@ -33,10 +33,6 @@ The computational resources available for the original study and our reproductio
 Specifically, the study was conducted in a Jupyter notebook using the virtual computing environment, CyberGISX, a cyberinfrastructure project which performs computations on a bank of supercomputers at the University of Illinois Urbana-Champaign.
 Required Python packages include numpy, pandas, geopandas, networkx, OSMnx, shapely, matplotlib, tqdm, and multiprocessing.
 
-***(((incorporate value of Open Source GIScience/complementing the original authors)))
-(((comment code)))
-Derrick's notes 6***
-
 ## Our Additions to the Code
 To address our concern that individuals who live outside of Chicago might also use the hospital services within Chicago, we reconfigured the pre-processing of residential data in order to include households in the suburbs.
 Once we adjusted the input data, we simply re-ran the analysis to generate new results.
@@ -100,22 +96,37 @@ atrisk_data = tract_geom.merge(at_risk_csv, how='inner', on='AFFGEOID')
 Upon running the code with our updated residential dataset, we generated new figures, some of which differ significantly from the original results.
 Since we did not address the spatial extent of the COVID-19 case data, I am excluding COVID-19 accessibility maps from this report.
 The following maps reveal the accessibility of ICU beds and ventilators to vulnerable populations in Chicago.
+Darker blue represents higher spatial accessibility and lighter blue represents lower spatial accessibility.
 
 ### Accessibility of ICU Beds to Vulnerable Populations
 #### Original Figure
 ![Accessibility of ICU Beds to Vulnerable Populations, original figure](assets/Kang_OG_Reproduction/pop_icu_class.png)
 #### Updated Figure
 ![Accessibility of ICU Beds to Vulnerable Populations, updated figure](assets/Kang_Class_Reproduction/pop_icu_class.png)
+Note that the extents of the darker blues are much smaller in the updated figure, especially in the northwest and southwest.
+The new figure even includes a light blue in the northwest, which was a darker shade in the original figure.
+We will discuss these results further after reviewing the second set of figures.
 
 ### Accessibility of Ventilators to Vulnerable Populations
 #### Original Figure
 ![Accessibility of Ventilators to Vulnerable Populations, original figure](assets/Kang_OG_Reproduction/pop_vents_class.png)
 #### Updated Figure
 ![Accessibility of Ventilators to Vulnerable Populations, updated figure](assets/Kang_Class_Reproduction/pop_vents_class.png)
+Similar to the first set of figures, the extents of the darker blues are smaller in the updated figure in the northwest and southwest.
+The new figure also includes a light blue in the northwest, where the original figure had been darker.
 
+For both ICU beds and ventilators, the original and updated figures are similar on the east side, but differ significantly in the northwest and southwest.
+These differences makes sense.
+Because Chicago borders Lake Michigan on the east and it takes time to drive to hospitals, including adjacent counties in the residential dataset will not increase the population accessing hospitals in Chicago's east side.
+With a similar number of people accessing hospital services, the spatial accessibility of those services remains similar for individuals who live in eastern Chicago.
+However, our adjusted residential dataset does impact the accessibility of hospitals for residents in western, northern, and southern Chicago.
+The hospitals in these parts of Chicago are less isolated from suburban residents, as they can drive to these hospitals in less time.
+Incorporating those suburban residents into our analysis thus increases the demand for hospital services in western, northern, and southern Chicago.
+With more people accessing hospital services, it is more difficult for any one individual to access those services, and the spatial accessibility measure mapped by our figures declines accordingly.
 
 If you would like more information regarding the processes and results of this reproduction, please see my complete reproduction repository [here](https://github.com/Liam-W-Smith/RPr-Kang-2020).
 
-
-
 ## Conclusions
+*the barriers that pre-processing steps pose to reproducibility (how difficult it can be to find the right census tables if the exact codes aren't provided)*
+*the censusdata package issue we encountered (can't reproduce something if the package is no longer working!)*
+*(((incorporate value of Open Source GIScience/complementing the original authors)))(((comment code)))*
