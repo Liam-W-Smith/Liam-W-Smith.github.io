@@ -38,6 +38,8 @@ Required Python packages include numpy, pandas, geopandas, networkx, OSMnx, shap
 Derrick's notes 6***
 
 ## Our Additions to the Code
+Our additions to the code can be found in [/procedure/code/04-Class-Reanalysis.ipynp](https://github.com/Liam-W-Smith/RPr-Kang-2020/blob/main/procedure/code/04-Class-Reanalysis.ipynb) under the "Population and COVID-19 Cases Data by County" subheading and our new figures are under [/results/figures/reproduction](https://github.com/Liam-W-Smith/RPr-Kang-2020/tree/main/results/figures/reproduction) and are copied below:
+
 ```python
 # Load data for tract geometry
 tract_geom = gpd.read_file('./data/raw/public/ReanalysisClass/cb_2018_17_tract_500k.shp')
@@ -99,7 +101,6 @@ atrisk_data = tract_geom.merge(at_risk_csv, how='inner', on='AFFGEOID')
 
 
 You can find my complete reproduction repository [here](https://github.com/Liam-W-Smith/RPr-Kang-2020).
-Our additions to the code can be found in [/procedure/code/04-Class-Reanalysis.ipynp](https://github.com/Liam-W-Smith/RPr-Kang-2020/blob/main/procedure/code/04-Class-Reanalysis.ipynb) under the "Population and COVID-19 Cases Data by County" subheading and our new figures are under [/results/figures/reproduction](https://github.com/Liam-W-Smith/RPr-Kang-2020/tree/main/results/figures/reproduction).
 
 
 
