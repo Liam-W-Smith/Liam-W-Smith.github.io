@@ -132,7 +132,22 @@ Our updated analysis accounts for this issue and illustrates that the surroundin
 If you would like more information regarding the processes and results of this reproduction, please see my complete reproduction repository [here](https://github.com/Liam-W-Smith/RPr-Kang-2020).
 
 ## Conclusions
-THIS IS IT!
-*the barriers that pre-processing steps pose to reproducibility (how difficult it can be to find the right census tables if the exact codes aren't provided)*
-*the censusdata package issue we encountered (can't reproduce something if the package is no longer working!)*
-*(((incorporate value of Open Source GIScience/complementing the original authors)))(((comment code)))*
+At the end of the day, we were able to reproduce the study and make minor improvements to the code.
+This would not have been possible for a group of undergraduate students to accomplish in a couple of afternoons had we not been provided the Jupyter notebook on CyberGISX.
+The Jupyter notebook illustrates exactly how the authors addressed their research questions and provides some information as to the motivations for their choices, making it possible to review their code and methodology in a manner that is impossible for most research papers.
+Cudos to the authors for their foresight in publishing their work in a cutting-edge, reproducible environment.
+
+Conducting the reproduction, however, also introduced me to the limitations and errors in their work.
+Discovering that their analysis of Chicago included hospitals but neglected the road networks and population outside of the city was surprising and somewhat eye-opening.
+The authors of the study are some of our top geospatial researchers, and they still made mistakes.
+If anything, this reproduction drew my attention to the importance of reproducing academic studies.
+All of us, even those at the top of the field, make mistakes, and a thorough peer review process is critical to addressing those errors.
+
+Another key takeaway is that undocumented pre-processing of data poses signficant barriers to reproducibility.
+While the authors performed some manipulations on their data simply to format it for the study, they do not document those manipulations in their code.
+For this reason, when we extended the geographic extent of the residential database, we had no model to work off of and had to develop our own method.
+
+Overall, Kang et al's study on spatial accessibility of COVID-19 healthcare resources is reproducible, and their Jupyter notebook on CyberGISX provides the public with all of the information necessary to computationally reproduce their analysis in Chicago.
+There are, however, a couple areas in which the work could be improved.
+Future work on the notebook could include documentating their data preprocessing and adding more comments to their code to make it easier to assess their methodology.
+This Jupyter notebook is already an incredibly valuable tool for teaching and learning the methods of reproducible GIS, and continual work on the notebook will only continue to improve its functionality.
