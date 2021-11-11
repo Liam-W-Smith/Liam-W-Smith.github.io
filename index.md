@@ -12,4 +12,4 @@ title: Main page
 2. [The Role of Open Source GIS in Resolving the Reproducibility Crisis](Reproducibility-crisis)
 3. [Error and Uncertainty](error-and-uncertainty)
 4. [Research Compendia as a Tool to Learn Spatial Analysis](Research-Compendium-Learning-Spatial-Analysis)
-5. [Vulnerability and Uncertainty](vulnerability_and_uncertainty)
+5. [Understanding and Critiquing the Uncertainty in Malcomb et al's Vulnerability Index](vulnerability_and_uncertainty)
