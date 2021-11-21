@@ -3,6 +3,7 @@ layout: page
 title: Understanding Uncertainty in Vulnerability Indices
 ---
 ## Introduction
+3. [Geographic and Sentiment Analysis of Twitter Use During Hurricane Ida](hurricane-ida-spatial-twitter-analysis)
 
 
 ## Materials and Methods
