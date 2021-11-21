@@ -60,17 +60,17 @@ The crux of the issue is that when faced with a life-threatening disaster, peopl
 When one's situation is so dire, one doesn't care how their data might be exploited in the future: they just want to survive.
 But their privacy does matter, and it is unethical for researchers to publish any personal information that could be linked to a particular individual.
 
-Unfortunately, this situation occurs relatively frequently, as we saw relating to Hurricane Harvey in class.
-In the aftermath of Harvey, the emergency response system broke down and a group of citizens rose in its palce.
+Unfortunately, this situation occurs relatively frequently.
+For example, in class we learned that in the aftermath of Harvey, the emergency response system broke down and a group of citizens rose in its palce.
 These citizens organized a system in which people could request help on social media and a volunteer with a boat would come to provide assistance.
 Every request for assistance was compiled in a google document, which was available online.
-This google doc, which contained sensitive information about people's locations and medical issues, could have been exploited in criminal and malicious manners, and several news outlets exacerbated the issue by publishing stories about it online.
+This google doc, which contained sensitive information about people's locations and medical issues, could have been exploited in criminal and malicious manners, and several news outlets exacerbated the issue by publishing stories about it.
 
 In the case of Twitter data, Twitter prohibits researchers from publishing unaggregated data and from separating geographic information from the Tweets to be used for other purposes.
 While it's great to tell researchers to follow these guidelines, there is no way to ensure that people actually will follow the rules.
 
 At the end of the day, VGI such as Twitter data can provide tremendous assistance in analyzing and developing responses to natural disasters, but this data comes with limitations.
-We must be aware of the uncertainties and biases present in VGI and careful not to misuse data in a way that violates one's right to privacy.
+We must be aware of the uncertainties and biases present in VGI and be careful not to misuse data in a way that violates one's safety and one's right to privacy.
 
 **References:**
 - Crawford, K., & Finn, M. (2015). The limits of crisis data: Analytical and ethical challenges of using social and mobile data to understand disasters. GeoJournal, 80(4), 491–502. https://doi.org/10.1007/s10708-014-9597-z
