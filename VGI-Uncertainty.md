@@ -13,6 +13,7 @@ In this project, he queried for Tweets containing the words "hurricane", "dorian
 The methodology was robust, but due to the nature of Twitter data, the results were subject to several uncertainties.
 
 **Defining Disasters**
+
 One of the issues presented by Crawford and Finn relates to the way we define disasters.
 While natural disasters occur over a discrete timeframe of a few days, the human impacts of these disasters persist for years.
 For this reason, the intellectual work surrounding natural disasters ought to account for both their short and long term impacts.
@@ -29,6 +30,7 @@ On the other hand, including "flooding" and "wind" as search parameters could ha
 Our search parameters, whatever they may be, establish a certain abstraction from reality which will never match perfectly with the true situation.
 
 **Who Contributes to VGI?**
+
 Another issue with using social media data to respond to natural disasters is the fact that social media users are not representative of the entire population.
 They tend to be younger, live in urban areas, and have access to a smartphone and the internet.
 In contrast, older, poorer, and more rural communities are not well represented.
@@ -39,6 +41,7 @@ This makes sense given that Hurricane Dorian hit the East Coast, but could the r
 
 
 **The Twitter Environment: Algorithms and Bots**
+
 Crawford and Finn also raise concerns about the affects of Twitter's algorithms on our analyses.
 Whether or not an individual finds a post on their feed is a function of Twitter's algorithms.
 For this reason, network analyses reflect not just how users interact with each others posts, but also how Twitter's algorithms influnce these interactions.
@@ -51,6 +54,7 @@ Researchers, who tend to work at prestigious universities and large corporations
 It is difficult for an outsider to understand all of the factors at play, and even more difficult to parse out different regional tendencies in an analysis conducted on a large study area.
 
 **Ethical Considerations**
+
 Unfortunately, the use of VGI also raises concerns regarding privacy and consent.
 The crux of the issue is that when faced with a life-threatening disaster, people often request help online and provide personal information about location, family members, and medical needs.
 When one's situation is so dire, one doesn't care how their data might be exploited in the future: they just want to survive.
