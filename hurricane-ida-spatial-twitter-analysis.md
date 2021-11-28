@@ -199,7 +199,7 @@ and if you would like to see my entire replication repository, please [click her
 
 *Figure 4: Increased Twitter activity illustrated by a Normalized Tweet Difference Index.*
 
-![Tweet Hotspots August 29 - September 10](assets/ida_results/G_Score_Ida.png)
+![Tweet Hotspots August 29 - September 10](assets/ida_results/maps/G_Score_Ida.png)
 
 *Figure 5: Hotspots of Twitter activity found with Local Getis-Ord statistic.*
 
