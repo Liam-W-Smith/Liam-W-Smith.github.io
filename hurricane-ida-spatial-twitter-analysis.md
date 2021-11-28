@@ -222,17 +222,13 @@ and if you would like to see my entire replication repository, please [click her
 
 *Figure 7: Sentiment analyses of Twitter activity at different times during the disaster.*
 
+#### Retweet Network
+
 ![Retweet Network](assets/ida_results/figures/network.png)
 
 *Figure 8: Retweet and quote network.*
 
 For more detailed information, please check out my [replication repository](https://github.com/Liam-W-Smith/Dorian-Replication).
-
-((((((Try theme_void or look up how to make graphs without backgrounds.
-
-Try side by side images in tables. Or merge the images into one image....
-
-Do some googling!))))))
 
 ## Discussion
 First, I'd like to describe the ways in which my findings compare to Holler's and Wang et al's results.
