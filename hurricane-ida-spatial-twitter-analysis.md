@@ -205,12 +205,14 @@ and if you would like to see my entire replication repository, please [click her
 
 
 ### Extension Figures
-
-![Tweet Hotspots in Each Time Period](assets/ida_results/maps/temporal_gscore.png)
+#### Hotspots
+![Tweet Hotspots August 29 - 31](assets/ida_results/maps/G-Score_Ida1.png)
+![Tweet Hotspots September 1 - 3](assets/ida_results/maps/G-Score_Ida2.png)
+![Tweet Hotspots September 4 - 10](assets/ida_results/maps/G-Score_Ida3.3.png)
 
 *Figure 6: Temporal analysis of hotspots of Twitter activity found with Local Getis-Ord statistic.*
 
-COMBINE
+#### Sentiment Analyses
 ![Sentiment Analysis August 29 - 31](assets/ida_results/figures/sentiment_analysis1.png)
 ![Sentiment Analysis September 1 - 3](assets/ida_results/figures/sentiment_analysis2.png)
 ![Sentiment Analysis September 4 - 10](assets/ida_results/figures/sentiment_analysis3.png)
