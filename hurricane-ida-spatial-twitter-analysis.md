@@ -228,8 +228,6 @@ and if you would like to see my entire replication repository, please [click her
 
 *Figure 8: Retweet and quote network.*
 
-For more detailed information, please check out my [replication repository](https://github.com/Liam-W-Smith/Dorian-Replication).
-
 ## Discussion
 First, I'd like to describe the ways in which my findings compare to Holler's and Wang et al's results.
 *Figure 1* reveals spikes in Twitter activity when Hurricane Ida hit land.
