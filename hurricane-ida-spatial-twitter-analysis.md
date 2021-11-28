@@ -180,37 +180,40 @@ That summarizes the new intellectual work that I contributed to this replication
 If you would like to see the complete code used for this study, please [use this link](https://github.com/Liam-W-Smith/Dorian-Replication/blob/main/procedure/code/01-dorian.Rmd).
 If you would like to see my entire replication repository, [click here!](https://github.com/Liam-W-Smith/Dorian-Replication)
 
-## Results
+## Results FIX THESE!
 
 ### Replicated Figures
-Tweets per Hour:
 ![Temporal Analysis](assets/ida_results/figures/temporal.png)
+*Figure 1: Tweets relating to Hurricane Ida over the course of the study timeframe.*
 
-Content Analysis:
 ![Content Analysis](assets/ida_results/figures/content_analysis3.png)
+*Figure 2: The most common words in tweets relating to Hurricane Ida.*
 
-Word Network:
 ![Word Network](assets/ida_results/figures/word_network2.png)
+*Figure 3: Network of word pairs in tweets relating to Hurricane Ida.*
 
-Map of Increased Twitter Activity (NTDI):
 ![NTDI](assets/ida_results/maps/ntdi_ida.png)
+*Figure 4: Increased Twitter activity illustrated by a Normalized Tweet Difference Index.*
 
-Hotspot Analysis:
 ![Tweet Hotspots August 29 - September 10](assets/ida_results/maps/G_Score_Ida_better.png)
+*Figure 5: Hotspots of Twitter activity found with Local Getis-Ord statistic.*
 
-### My Additions
-Hotspot Analyses:
+
+### Extension Figures
+combine
 ![Tweet Hotspots August 29 - 31](assets/ida_results/maps/G_Score_Ida1.png)
 ![Tweet Hotspots September 1 - 3](assets/ida_results/maps/G_Score_Ida2.png)
 ![Tweet Hotspots September 4 - 10](assets/ida_results/maps/G_Score_Ida3.3.png)
+*Figure 6: Temporal analysis of hotspots of Twitter activity found with Local Getis-Ord statistic.*
 
-Sentiment Analyses:
+COMBINE
 ![Sentiment Analysis August 29 - 31](assets/ida_results/figures/sentiment_analysis1.png)
 ![Sentiment Analysis September 1 - 3](assets/ida_results/figures/sentiment_analysis2.png)
-![Sentiment Analysis September 4 - 10](assets/ida_results/figures/sentiment_analysis3.png)
+![Sentiment Analysis September 4 - 10](assets/ida_results/figures/sentiment_analysis3.png)THISIS THE WRONG FIGURE!
+*Figure 7: Sentiment analyses of Twitter activity at different times during the disaster.*
 
-Retweet Network:
 ![Retweet Network](assets/ida_results/figures/network.png)
+*Figure 8: Retweet and quote network.*
 
 For more detailed information, please check out my [replication repository](https://github.com/Liam-W-Smith/Dorian-Replication).
 
@@ -221,17 +224,63 @@ Try side by side images in tables. Or merge the images into one image....
 Do some googling!))))))
 
 ## Discussion
-The report discussion should compare your results to our Hurricane Dorian study and Wang et al (2016) and respond to any relevant concerns of Crawford and Finn (2014).
-Provide a summary and interpretation of your key findings in relation to your research question. Mention if findings confirm or contradict patterns observed by Wang et al (2016) or by Holler
-- Consider looking up the top twitter handles!
+First, I'd like to describe the ways in which my findings compare to Holler's and Wang et al's results.
+*Figure 1* reveals spikes in Twitter activity when Hurricane Ida hit land.
+The first major spike occurred when the hurricane hit Louisiana, and the second major spike occurred when the hurricane hit the northeast.
+This result is consistent with Holler's analysis of Hurricane Dorian, in which Twitter activity spiked when the hurricane hit land and then dwindled in the following days.
+*Figure 3* also shares striking similarities with the corresponding graph from Holler's analysis of Hurricane Dorian.
+The most common word pairings in both analyses were between words that conveyed location information, descriptions about the storm, safety information, and messages about climate change.
+One notable difference is that the figure in our replication study includes no word pairings relating to fake news, but this makes sense given the different context of this study.  
+
+A similar distinction can be drawn between *Figure 2* and the corresponding figure in the Dorian analysis.
+*Figure 2* shows that words about the strength, location, and damage of the storm were most common in queried Tweets.
+The corresponding figure for Hurricane Dorian contained similar words, but it also included the words "Trump" and "realdonaldtrump" due to the Sharpiegate scandal.
+This figure also corroborates the findings of Wang et al; in their analysis of wildfires, they found that the most commonly occuring words related to the effects and location of the wildfires.
+For both hurricanes, the NTDI maps and hotspot maps (*Figure 4* and *Figure 5* for the Hurricane Ida analysis) reveal a higher prevalence of Tweets in places where the storm actually struck land.
+Similarly, Wang et al found a higher prevalence of Tweets about wildfires in locations near the wildfires.
+
+Holler's analysis of Hurricane Dorian did not include a network analysis of retweet activity, so I cannot compare my results to his.
+However, Wang et al included a network analysis in their paper.
+They found that news outlets and authorities on the disaster were the most frequently retweeted users.
+By searching Twitter for the Twitter handles corresponding to the largest nodes in *Figure 8*, I discovered that my findings corroborate their result.
+The largest nodes in my network graph are @NWSNewOrleans, which is the National Weather Service in New Orleans; @NHC_Atlantic, which is the National Hurricane Center; @nelsonqatlanta, who is a journalist and former reporter for CNN; and @galeanTV, who is also a journalist.
+
+*Figure 6* is an extension from previous work, but it illustrates a pattern that make sense given what we have seen so far.
+*Figure 6* shows that when Hurricane Ida first struck Louisiana, the only hotspot of Twitter activity was along the coast where the hurricane had struck.
+When the storm hit the northeast, a new hotspot emerged in the northeast and the hotspot in the south remained approximately where it was, becoming slightly more geographically specific.
+In the few days following the storm, hotspots remained in both the northeast and the south, but became slightly more geographically limited.
+One possible explanation for the decreasing geographic extent of Twitter hotspots is that the fringes of hotspot Twitter activity during the storm may not have witnessed as severe damage as the centers of the Twitter hotspots.
+In the aftermath of the storm, those whose belongings were destroyed in the storm may have continued Tweeting, while those who were left untouched did not.
+
+The sentiment analysis in *Figure 7* does not reveal much distinction between the sentiments expressed in each time period.
+In all cases, the frequency of negative words far outpaced the frequency of positive words.
+Certain words categorized as positive, such as "strong", "strongest", and "powerful" probably were descriptions of the storm and in context would not even have conveyed a positive sentiment.
+Different words were more prevalent during different time periods, but the prevalent words are all so similar that it is difficult to draw any conclusions from the results.
+
+It is important to acknowledge the uncertainties inherent in our research methodology.
+As Crawford and Finn discuss in *The limits of crisis data: Analytical and ethical challenges of using social and mobile data to understand disasters*, the effects of natural disasters last for years, but studies using Twitter data reflect the impacts of just a few days.
+Additionally, the users of Twitter tend to be younger and urban residents, so the analysis may exaggerate the results for these demographics and underrepresent older and rural communities.
+Finally, Twitter's algorithms and the presence of Twitter bots may have impacted the frequency with which users were retweeted, propogating error into my network analysis.
+The vast majority of users are real people, and despite demographic tendencies, the results reflect the anticipated geographic distribution of Twitter activity.
+However, it is important for any consumer of this research to understand that the figures and maps presented in this report are certainly subject to error.
 
 ## Conclusions
-Restate the key findings and discuss their broader societal implications or contributions to theory. Do the research findings suggest a need for any future research?
+Overall, this replication study corroborates the findings of Holler and Wang et al.
+In particular, the results reinforce the following conclusions of Holler and Wang et al's research, contributing to the growing body of research that the following statements are valid:
 
+1. Twitter activity is found to spike during a natural disaster and fade away in the following days.
+2. The most common words and word associations in natural disaster-related Tweets concern the strength, location, and damage of the event.
+3. The location of increased Twitter activity tends to be where the worst impacts of the disaster are felt.
+4. The dominant voices in retweet networks during natural disasters are news outlets and authorities on the disaster.
 
+Furthermore, this analysis finds that hotspots of Twitter activity tend to begin when the disaster hits a region and continue for at least several days following the event.
+There may be a tendency for the geographic extent of hotspots to become slightly smaller in the days following the event, and future research ought to investigate the existence and causes of this phenomenon.
+This analysis also found that the sentiments expressed on social media during and just after a natural disaster tend to be similar.
+Further research might seek to corroborate this finding, potentially employing more nuanced textual analysis techniques.
+This replication study successfully corraborated the results of previous spatial analyses of Twitter data during natural disasters and extended the study in new directions.
+The replicated conclusions are fairly well-established, but the validity of my extensions ought to be validated by further research.
 
-**References**
+**References:**
 - Crawford, K., & Finn, M. (2015). The limits of crisis data: Analytical and ethical challenges of using social and mobile data to understand disasters. GeoJournal, 80(4), 491–502. https://doi.org/10.1007/s10708-014-9597-z
 - Professor Holler's [Research Compendium](https://github.com/GIS4DEV/OR-Dorian) for his analysis of Hurricane Dorian
 - Wang, Z., Ye, X., & Tsou, M.-H. (2016). Spatial, temporal, and content analysis of Twitter for wildfire hazards. Natural Hazards, 83(1), 523–540. https://doi.org/10.1007/s11069-016-2329-6
-- Past replications!
