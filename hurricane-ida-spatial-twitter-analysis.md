@@ -190,7 +190,7 @@ Content Analysis:
 ![Content Analysis](assets/ida_results/figures/content_analysis3.png)
 
 Word Network:
-![Word Network](assets/ida_results/figures/word_network.png)
+![Word Network](assets/ida_results/figures/word_network2.png)
 
 Map of Increased Twitter Activity (NTDI):
 ![NTDI](assets/ida_results/maps/ntdi_ida.png)
