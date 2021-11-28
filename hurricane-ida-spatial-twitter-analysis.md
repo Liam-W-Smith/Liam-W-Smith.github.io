@@ -8,7 +8,7 @@ Version 1.0 | Created 2021-11-28 | Last Updated 2021-11-28
 
 
 ## Abstract
-As social media has risen, a massive quantity of Volunteered Geographic Information has become available to the general public.
+As social media use has risen, a massive quantity of Volunteered Geographic Information has become available to the general public.
 In the age of big data, researchers and corporations around the world use VGI from Twitter data to conduct research in fields from marketing to geography.
 Wang et al illustrate in *Spatial, temporal, and content analysis of Twitter for wildfire hazards* that Twitter data provides valuable information about natural hazards and their impacts.
 Specifically, they find that during a natural disaster, Twitter activity reflects the location and time of the disaster, as people tend to Tweet situational updates and news and local governments play a prominent role in retweet networks.
