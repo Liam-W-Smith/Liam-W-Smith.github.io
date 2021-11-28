@@ -5,7 +5,7 @@ title: Uncertainty in Volunteered Geographic Information
 
 Did you know that the USGS can now identify earthquakes using live Twitter data as quickly as or quicker than they can by using traditional methods of seismic detection?
 Volunteered Geographic Information (VGI), like information gathered from Twitter, is rapidly emerging as a powerful tool for responding to and learning from natural disasters.
-But as Crawford and Finn articulate in *The limits of crisis data: analytical and ethical challenges of using social and mobile data to understand disasters*, certain ethical dilmmas and uncertainties emerge from VGI.
+But as Crawford and Finn articulate in *The limits of crisis data: analytical and ethical challenges of using social and mobile data to understand disasters*, certain ethical dilemmas and uncertainties emerge from VGI.
 In this blog post, I'll discuss the findings of last week's [analysis of Twitter data during Hurricane Dorian](https://gis4dev.github.io/2021/11/11/twitter-hurricane) in the context of Crawford and Finn's paper.
 
 Professor Holler's analysis of Twitter data during Hurricane Dorian sought to identify how Twitter activity was affected by Hurricane Dorian and the fake news "sharpiegate" scandal.

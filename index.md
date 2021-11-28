@@ -5,7 +5,7 @@ title: Main page
 ## GIS Analyses
 1. [Flood Risk and Food Access in Dar Es Salaam](/Dar-Es-Salaam-Vulnerability/report)
 2. [Spatial Accessibility of COVID-19 Healthcare Resources in Chicago](COVID-19-spatial-accessibility)
-3. [Geographic and Sentiment Analysis of Twitter Use During Hurricane Ida](hurricane-ida-spatial-twitter-analysis)
+3. [Hurricane Ida Spatial Twitter Analysis](hurricane-ida-spatial-twitter-analysis)
 
 ## Blog Posts
 
