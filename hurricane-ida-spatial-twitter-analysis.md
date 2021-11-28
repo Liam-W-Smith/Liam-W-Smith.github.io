@@ -187,7 +187,7 @@ Tweets per Hour:
 ![Temporal Analysis](assets/ida_results/figures/temporal.png)
 
 Content Analysis:
-![Content Analysis](assets/ida_results/figures/content_analysis.png)
+![Content Analysis](assets/ida_results/figures/content_analysis2.png)
 
 Word Network:
 ![Word Network](assets/ida_results/figures/word_network.png)
