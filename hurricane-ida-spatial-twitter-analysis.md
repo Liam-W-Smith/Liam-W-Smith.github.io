@@ -196,7 +196,7 @@ Map of Increased Twitter Activity (NTDI):
 ![NTDI](assets/ida_results/maps/ntdi_ida.png)
 
 Hotspot Analysis:
-![Tweet Hotspots August 29 - September 10](assets/ida_results/maps/G_Score_Ida.png)
+![Tweet Hotspots August 29 - September 10](assets/ida_results/maps/G_Score_Ida_better.png)
 
 ### My Additions
 Hotspot Analyses:
