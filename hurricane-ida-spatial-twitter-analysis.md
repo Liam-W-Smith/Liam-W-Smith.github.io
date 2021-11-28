@@ -206,9 +206,7 @@ and if you would like to see my entire replication repository, please [click her
 
 ### Extension Figures
 combine
-![Tweet Hotspots August 29 - 31](assets/ida_results/maps/G_Score_Ida1.png)
- | ![Tweet Hotspots September 1 - 3](assets/ida_results/maps/G_Score_Ida2.png)
- | ![Tweet Hotspots September 4 - 10](assets/ida_results/maps/G_Score_Ida3.3.png)
+![Tweet Hotspots August 29 - 31](assets/ida_results/maps/G_Score_Ida1.png) | ![Tweet Hotspots September 1 - 3](assets/ida_results/maps/G_Score_Ida2.png)| ![Tweet Hotspots September 4 - 10](assets/ida_results/maps/G_Score_Ida3.3.png)
 
 
 
