@@ -177,25 +177,30 @@ network <- plot.igraph(
 ```
 
 That summarizes the new intellectual work that I contributed to this replication.
-If you would like to see the complete code used for this study, please [use this link](https://github.com/Liam-W-Smith/Dorian-Replication/blob/main/procedure/code/01-dorian.Rmd).
-If you would like to see my entire replication repository, [click here!](https://github.com/Liam-W-Smith/Dorian-Replication)
+If you would like to see the complete code used for this study, you can [click here](https://github.com/Liam-W-Smith/Dorian-Replication/blob/main/procedure/code/01-dorian.Rmd),
+and if you would like to see my entire replication repository, please [click here.](https://github.com/Liam-W-Smith/Dorian-Replication)
 
-## Results FIX THESE!
+## Results
 
 ### Replicated Figures
 ![Temporal Analysis](assets/ida_results/figures/temporal.png)
+
 *Figure 1: Tweets relating to Hurricane Ida over the course of the study timeframe.*
 
 ![Content Analysis](assets/ida_results/figures/content_analysis3.png)
+
 *Figure 2: The most common words in tweets relating to Hurricane Ida.*
 
 ![Word Network](assets/ida_results/figures/word_network2.png)
+
 *Figure 3: Network of word pairs in tweets relating to Hurricane Ida.*
 
 ![NTDI](assets/ida_results/maps/ntdi_ida.png)
+
 *Figure 4: Increased Twitter activity illustrated by a Normalized Tweet Difference Index.*
 
 ![Tweet Hotspots August 29 - September 10](assets/ida_results/maps/G_Score_Ida_better.png)
+
 *Figure 5: Hotspots of Twitter activity found with Local Getis-Ord statistic.*
 
 
@@ -204,15 +209,18 @@ combine
 ![Tweet Hotspots August 29 - 31](assets/ida_results/maps/G_Score_Ida1.png)
 ![Tweet Hotspots September 1 - 3](assets/ida_results/maps/G_Score_Ida2.png)
 ![Tweet Hotspots September 4 - 10](assets/ida_results/maps/G_Score_Ida3.3.png)
+
 *Figure 6: Temporal analysis of hotspots of Twitter activity found with Local Getis-Ord statistic.*
 
 COMBINE
 ![Sentiment Analysis August 29 - 31](assets/ida_results/figures/sentiment_analysis1.png)
 ![Sentiment Analysis September 1 - 3](assets/ida_results/figures/sentiment_analysis2.png)
 ![Sentiment Analysis September 4 - 10](assets/ida_results/figures/sentiment_analysis3.png)THISIS THE WRONG FIGURE!
+
 *Figure 7: Sentiment analyses of Twitter activity at different times during the disaster.*
 
 ![Retweet Network](assets/ida_results/figures/network.png)
+
 *Figure 8: Retweet and quote network.*
 
 For more detailed information, please check out my [replication repository](https://github.com/Liam-W-Smith/Dorian-Replication).
