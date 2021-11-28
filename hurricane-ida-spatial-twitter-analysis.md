@@ -213,7 +213,7 @@ and if you would like to see my entire replication repository, please [click her
 COMBINE
 ![Sentiment Analysis August 29 - 31](assets/ida_results/figures/sentiment_analysis1.png)
 ![Sentiment Analysis September 1 - 3](assets/ida_results/figures/sentiment_analysis2.png)
-![Sentiment Analysis September 4 - 10](assets/ida_results/figures/sentiment_analysis3.png)THISIS THE WRONG FIGURE!
+![Sentiment Analysis September 4 - 10](assets/ida_results/figures/sentiment_analysis3.png)
 
 *Figure 7: Sentiment analyses of Twitter activity at different times during the disaster.*
 
