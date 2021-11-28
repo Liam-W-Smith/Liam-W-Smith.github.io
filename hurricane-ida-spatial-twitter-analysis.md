@@ -216,7 +216,9 @@ For more detailed information, please check out my [replication repository](http
 
 ((((((Try theme_void or look up how to make graphs without backgrounds.
 
-Try side by side images in tables. Or merge the images into one image....))))))
+Try side by side images in tables. Or merge the images into one image....
+
+Do some googling!))))))
 
 ## Discussion
 The report discussion should compare your results to our Hurricane Dorian study and Wang et al (2016) and respond to any relevant concerns of Crawford and Finn (2014).
