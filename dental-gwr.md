@@ -436,24 +436,19 @@ The code used to generate these maps is included in my replication repository.
 *Figure 1: Coefficients and their statistical significance for percent children. n = 127 local authorities with statistically significant results.*
 
 ![Results for Percent Disability](assets/final-report/disability-merged.png)
-
 *Figure 2: Coefficients and their statistical significance for percent with disability. n = 96 local authorities with statistically significant results.*
 
 ![Results for Foreign Rate](assets/final-report/foreign-merged.png)
-
 *Figure 3: Coefficients and their statistical significance for percent foreign-born. n = 131 local authorities with statistically significant results.*
 
 ![Results for Unemployment Rate](assets/final-report/unemployment-merged.png)
-
 *Figure 4: Coefficients and their statistical significance for the unemployment rate. n = 30 local authorities with statistically significant results.*
 
 I also created the following maps to illustrate the accuracy of the model's predictions.
 ![Results for Dental Extractions](assets/final-report/extractions-merged.png)
-
 *Figure 5: Actual extraction rates and predicted extraction rates.*
 
 ![Distribution of R-Squared Values](assets/final-report/R-Squared.png)
-
 *Figure 6: Spatial distribution of R-Squared values for the GWR model.*
 
 ## Discussion
