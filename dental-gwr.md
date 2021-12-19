@@ -452,7 +452,7 @@ I also created the following maps to illustrate the accuracy of the model's pred
 
 *Figure 5: Actual extraction rates and predicted extraction rates.*
 
-![Distribution of R-Squared Values](assets/final-report/R-squared.png)
+![Distribution of R-Squared Values](assets/final-report/R-Squared.png)
 
 *Figure 6: Spatial distribution of R-Squared values for the GWR model.*
 
