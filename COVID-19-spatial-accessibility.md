@@ -13,6 +13,14 @@ Reproducing this study either confirms its findings, contributing to its validit
 There are also intellectual and pedagogical motives for conducting a reproduction of this study.
 Intellectually, a reproduction confirms the validity of the researchers' spatial techniques; and pedagogically, conducting a reproduction allows students to see how geospatial studies are conducted and encourages students think critically about their reputability.
 
+## Important Links
+
+- [Original publication](https://ij-healthgeographics.biomedcentral.com/articles/10.1186/s12942-020-00229-x)
+
+- [Original code repository](https://github.com/cybergis/COVID-19AccessibilityNotebook)
+
+- [Reproduction repository](https://github.com/Liam-W-Smith/RPr-Kang-2020)
+
 ## Materials and Methods
 The Kang et al. study draws on four datasets:
 1. A **hospital dataset** provided by the Illinois Department of Health, which contains information about the number of ICU beds and ventilators at each hospital.
