@@ -37,7 +37,7 @@ This makes sense because different states implemented different COVID-19 policie
 2. The Relative Risk (RR) for COVID-19 incidence, defined as RR = ((local COVID-19 cases)/(local pop))/((US COVID-19 cases)/(US pop)).
 He classified counties into 6 categories based on their RR levels.
 But before categorizing counties based on their RR levels, he applied Kulldorf Spatial Scan Cluster Detection in order to determine clusters of counties where COVID rates were highly correlated.
-Counties outside of a cluster were assigned the lowest category of RR rates and the center county in each cluster received an RR score based on the counties in its cluster.
+Only the center counties in each cluster were assigned higher RR rates; all others received the lowest classification.
 
 
 Classifying counties based on those two factors, Chakraborty created a total of 102 clusters, which included between 1 and 245 counties.
