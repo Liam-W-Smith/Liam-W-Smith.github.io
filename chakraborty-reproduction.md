@@ -85,7 +85,7 @@ The map on the left shows the relative risk classes using Chakraborty's method w
 
 After running GEEs on our reclassified data, we found that our results were still very similar to Chakraborty's.
 Even with our modified RR scores, the signs of the correlation corresponding to each variable remained the same.
-The magnitudes of the correlations, however, differed slightly between the original study and our reproduction.
+The magnitudes of the correlations differed slightly between the original study and our reproduction.
 
 ## Next Steps
 
