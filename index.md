@@ -16,3 +16,4 @@ title: Main page
 4. [Research Compendia as a Tool to Learn Spatial Analysis](Research-Compendium-Learning-Spatial-Analysis)
 5. [Understanding Uncertainty in Vulnerability Indices](vulnerability_and_uncertainty)
 6. [Uncertainty in Volunteered Geographic Information](VGI-Uncertainty)
+7. [Reproducing Chakraborty's Analysis of COVID-19 and Disability Characteristics](chakraborty-reproduction)
