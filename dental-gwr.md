@@ -340,7 +340,7 @@ residual_histogram <- ggplot(m_aug, aes(x = .resid)) +
 residual_histogram
 ```
 
-![Residual Histogram](assets/final-report/residual_plot.png)
+![Residual Histogram](assets/final-report/residual_histogram.png)
 
 The distribution is slightly skewed right, but it's not terrible.
 Ideally, the residuals would exhibit a more normal distribution, but for the purposes of this assignment I move on to fitting a Geographically Weighted Regression model.
