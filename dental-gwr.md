@@ -433,7 +433,6 @@ To replicate Broomhead et al's maps, I created choropleth maps using the tmap pa
 The code used to generate these maps is included in my replication repository.
 
 ![Results for Percent Children](assets/final-report/children-merged.png)
-
 *Figure 1: Coefficients and their statistical significance for percent children. n = 127 local authorities with statistically significant results.*
 
 ![Results for Percent Disability](assets/final-report/disability-merged.png)
