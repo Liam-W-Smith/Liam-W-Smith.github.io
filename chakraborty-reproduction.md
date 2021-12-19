@@ -90,15 +90,15 @@ The magnitudes of the correlations differed slightly between the original study 
 ## Next Steps
 
 Although Professor Holler and his research assistants successfully reproduced this study, there are areas in which the study could be improved.
-For example, since the Kulldorf Spatial Scan considers clusters to be one unit, we might be able to improve the results by generating a risk score for each cluster rather than a risk score for each county.
+Since the Kulldorf Spatial Scan considers clusters to be one unit, we might be able to improve the results by generating a risk score for each cluster rather than a risk score for each county.
 Additionally, our current results indicate that counties with higher proportions of privileged disabled individuals tend to have lower COVID-19 rates and counties with higher proportions of disabled individuals of marginalized backgrounds  tend to have higher COVID-19 rates.
-I would also like to see some evidence that these results are due to the interaction between disability AND the other factors (race, age, sex, etc...), rather than just those other factors.
+I would also like to see some evidence that these results are due to the interaction between disability AND the socio-economic factors (race, age, poverty, sex, etc...), rather than just the socio-economic factors.
 
 For example, counties with high proportions of Black PwDs are associated with high COVID-19 rates.
 If we calculated the same statistics for counties with high proportions of Black people, how would our results differ?
-Identifying and analyzing that type of difference would allow us to conclude whether the correlations we found are due to the interaction between disabilities and socio-economic factors or merely the to the socio-economic factors.
+Identifying and analyzing that type of difference would allow us to conclude whether the correlations we found are due to the interaction between disabilities and socio-economic factors or merely the socio-economic factors.
 
-Our understanding of thsi topic may also benefit from replication studies.
+Our understanding of this topic may also benefit from replication studies.
 This analysis was conducted using COVID-19 data from August 1, 2020.
 It may be interesting and meaningful to determine whether the patterns identified in this study remained the same over the course of the pandemic.
 Johns Hopkins, the source of the COVID-19 data for this study, updates its online COVID-19 database daily, and one could easily implement our workflow using data from different days.
