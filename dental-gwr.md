@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Replication Study using Geographically Weighted Regression
+title: Final Project: Geographically Weighted Regression
 ---
 Liam Smith, Middlebury College
 
@@ -26,9 +26,9 @@ The spatial extent of the study is the country of England, and the spatial scale
 The spatial scale seems appropriate because it is the finest geographic unit for which dental extractions data are available.
 The analysis was conducted based on tooth extractions data from 2017-18 and census data from 2011.
 
-## Materials and procedure
+# Materials and procedure
 
-### Data and variables
+## Data and variables
 
 - [Extractions Data](https://www.gov.uk/government/publications/hospital-tooth-extractions-of-0-to-19-year-olds): Data on hospital-based dental extractions in the United Kingdom was provided by Public Health England, a government agency.
 This data indicates the number of times that children, grouped by local authority of the child's residence, were admitted to a hospital for tooth extractions.
@@ -39,7 +39,7 @@ On the local authority level, I queried for all of the available variables; the 
 This data is freely available from Social Explorer, a small business which provides online mapping and data services.
 - [Local Authority Geometries](https://geoportal.statistics.gov.uk/datasets/ons::local-authority-districts-may-2021-uk-bfc/explore?location=54.883506%2C-3.316939%2C5.72): Cartographic boundaries for England's local authorities are provided by the United Kingdom's Office for National Statistics, which houses an open data portal on its website.
 
-### Geographic and Temporal characteristics
+## Geographic and temporal characteristics
 
 Dental extractions data is from 2017-18 and census data is from 2011.
 It is important to note that several groups of local authorities have merged to form larger local authorities between the 2011 census and today.
@@ -50,12 +50,12 @@ For this reason, the spatial resolutions and unique identifiers for some local a
 I illustrate how I addressed this concern in the following section.
 The coordinate reference system of the analysis is OSGB 1936, and the spatial extent of the analysis is the extent of England.
 
-### Data transformations
+## Data transformations
 
 In this section, I provide a summary of the data transformations performed on my data.
 Note that complete documentation of my procedure is available in [this R markdown file](https://github.com/Liam-W-Smith/dental-gwr/blob/main/procedure/code/dental-gwr.Rmd) in my research compendium.
 
-#### Cleaning the Extractions Data
+### Cleaning the Extractions Data
 
 First, I read the extractions csv and extract data from the year of interest.
 ```r
@@ -96,7 +96,7 @@ extractions <- extractions %>%
          ONS_code = if_else(ONS_code == "E08000037", "E08000020", ONS_code))  
 ```
 
-#### Cleaning the Census Data
+### Cleaning the Census Data
 
 First I import the census data as uk_census and rename relevant variables to have more useful names.
 ```r
@@ -160,7 +160,7 @@ uk_census <- uk_census %>%
   select(pctChild, single_parent_households_ph, foreign_rate, severe_disability_rate, crowded_rate, unemployment_rate, Geo_Name, Geo_LA_CODE, all_usual_residents)
 ```
 
-#### Cleaning the Geometry Data
+### Cleaning the Geometry Data
 
 First, I load my geometry data as an sf object and select only the variables I care about (geometry is automatically kept).
 ```r
@@ -196,7 +196,7 @@ local_authorities <- local_authorities %>%
          geo_code = if_else(geo_code == "E41000324", "E09000033", geo_code))
 ```
 
-#### Joining the Data Sets, Final Touches
+### Joining the Data Sets, Final Touches
 
 I perform two joins in order to get the geometry, census data, and extractions data all in one dataset.
 ```r
@@ -214,9 +214,9 @@ dentistry <- dentistry %>%
   mutate(extraction_rate = extractions/all_usual_residents*100000)
 ```
 
-### Analysis
+## Analysis
 
-#### Linear Regression and Assessing Model Fit
+### Linear Regression and Assessing Model Fit
 
 My end goal is to fit a Geographically Weighted Regression (GWR) model and compare my results to Broomhead et al's, but first I will fit an Ordinary Least Squares (OLS) model of my dataset.
 I do this for two reasons.
@@ -345,7 +345,7 @@ residual_histogram
 The distribution is slightly skewed right, but it's not terrible.
 Ideally, the residuals would exhibit a more normal distribution, but for the purposes of this assignment I move on to fitting a Geographically Weighted Regression model.
 
-#### What is Geographically Weighted Regression?
+### What is Geographically Weighted Regression?
 
 Linear regression models relationships between variables, predicting outcomes of a response variable using multiple explanatory variables.
 It creates one model for the entire study area, under the assumption that the relationships between variables are the same everywhere in the study area.   
@@ -369,7 +369,7 @@ Rather than keeping the maximum distance constant, adaptive kernels keep the num
 In this case, I opt for an adaptive kernel, because I want to ensure that the model includes sufficient data when generating regression models in both rural and urban areas.
 If I were to use a fixed kernel, then urban areas would include more data in their local regressions and rural areas would include less.
 
-#### Fitting the Geographically Weighted Regression Model
+### Fitting the Geographically Weighted Regression Model
 
 The GWR model in the *spgwr package* requires point geometry coordinates as inputs, so I find the coordinates for each local authority's centroid.
 ```r
@@ -405,7 +405,7 @@ In order to get our GWR results into a form with I'm familiar with, I convert it
 results <-as.data.frame(GWR_adapt$SDF)
 gwr.map_adapt <- cbind(dentistry, as.matrix(results))
 ```
-#### Determining Statistical Significance
+### Determining Statistical Significance
 
 In their paper, Broomhead et al present side-by-side maps for each predictor.
 The maps on the left display the coefficients for the predictor in each local authority, and the maps on the right display the same information, but only for coefficients which are statistically significant.
