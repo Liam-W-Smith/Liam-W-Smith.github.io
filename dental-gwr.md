@@ -6,7 +6,7 @@ Liam Smith, Middlebury College
 
 Version 1.0 | Created 2021-12-18 | Last Updated 2021-12-18  
 
-## Abstract
+# Abstract
 
 In this analysis, I replicate Broomhead et al's study, ["National Patterns in Paediatric Hospital Admissions for Dental Extractions in England"](https://onlinelibrary.wiley.com/doi/10.1111/cdoe.12603).
 Their original study applied Geographically Weighted Regression using the spgwr package in R to analyze spatial patterns and predictors of dental extractions in children in the United Kingdom.
