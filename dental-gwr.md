@@ -271,9 +271,13 @@ vif(m)
 ```
 
 The above function outputs the following VIF values.
+
 pctChild: 1.600338
-severe_disability_rate: 4.371897           
+
+severe_disability_rate: 4.371897       
+
 foreign_rate: 2.557536      
+
 unemployment_rate: 4.258962
 
 Since all VIF's are all less than 5, multicollinearity is not problematic in my model.
