@@ -451,35 +451,69 @@ I also created the following maps to illustrate the accuracy of the model's pred
 
 ## Discussion
 
-STOPPED HERE.
+*Figures 1 - 4* illustrate that relationships between each explanatory variable and the response variable vary greatly across the country.
+The left map in each figure reveals that for each predictor, there are regions where the coefficient is positive and regions where the coefficient is negative.
+And the right map in each figure reveals that for every predictor except the percentage of the population composed of children, there are statistically significant results for both positive and negative coefficients.
+This leads me to believe that the social factors leading to pediatric dental extractions vary across space, but it is difficult to deduce why these relationships are different without knowing the region better.
+This result is similar to the results from Broomhead et al's paper, as their maps revealed both positive and negative coefficients for most of their indicators.
+The values for the coefficients in my model are also astonishingly large.
+It seems unlikely that a 1% increase in any of my indicators would result in the outcome variable of dental extractions changing by over a thousand when there are no local authorities with even 500 total extractions per 100k people.
 
-Unfortunately, by inspecting Broomhead et al's maps, one discovers that they have the more specific choices on their maps.
-It is possible that they did their work before the community's were merged, as all of the merges occurred in 2019 and 2020, and the paper was accepted for publication in 2020.
+Despite selecting only social predictors in my analysis, I found that the number of statistically significant results was similar for each coefficient in my study to those from Broomhead et al's study.
+In my model, the number of significant coefficients was 127 for percent children, 96 for percent with disability, 131 for percent foreign, and 30 for the unemployment rate.
+Similarly, Broomhead et al found 44, 27, 250, and 29 significant coefficients for their predictors, which were mean dental caries in 5 year olds, a socioeconomic index called the Index of Multiple Deprivation, units of dental activity, and child access to dentists, respectively.
+Notably, one of their predictors, the number of contracted Units of Dental Activity, far outperformed all of the other predictors in both the original and replication study.
+According to their paper, "UDAs are used to measure the amount of work conducted during dental treatment in NHS primary care general dental services."
+Since UDAs represent the amount of dental work in a region, it makes sense that we see high UDA levels where we see high rates of one particular dental procedure.
+Broomhead et al suggest several reasons why there might be few statistically significant results for the other predictors.
+There could actually be no relationship between the independent and dependent variables, the local models rely on very few data points so they could be highly influenced by even one outlier, and slight issues with the normality of data (as we saw previously) could all be in play.
 
+For the results that were statistically significant, let's examine exactly what they tell us.
+My first predictor, the percentage of population composed by children, shows that significant results had strictly positive coeffients.
+This makes sense to me, because there should be more pediatric dental extractions where there are more children.
+My second and third predictors, the percent of disabled and foreign-born individuals, also have primarily positive significant coefficients.
+I'm not sure why this is true: perhaps these individuals are more likely to take children with tooth issues to a dentist or perhaps they are more likely to have tooth issues themselves?
+My final predictor, the unemployment rate, actual exhibits more negative than positive significant coefficients.
+Rather than a sign of good-health, this may have occured because unemployed people are less able to afford expensive tooth procedures.
 
+I also extend the analysis to generate predicted extractino rates around the UK.
+*Figure 5* shows side-by-side maps illustrating the actual extraction rates and my predicted extraction rates.
+It appears that my model predicts far less local variation in extraction rates than exist in reality, as the prediction map contains far more orange and less yellow and red.
 
-Provide a summary the key findings of the study along with any limitations or areas in need of further investigation. If the study did not succeed as expected, discuss likely practical procedural and informative causes. Practical procedural causes relate to problems in the research procedures, e.g. challenges with data, code, or research parameters. Informative causes relate to problems with the referent geographic phenomena, e.g. absence of the theorized effect(s), change in population, or change in location.
+Figure 5 also shows the R-Squared values for the GWR model across the country.
+Recall that we observed an R-Squared value of 0.1916 in the linear regression model.
+According to this figure, the minimum value for a local authority is 0.2150, and in parts of the country, especially the southeastern and northwestern parts, R-Squared values are far higher, sometimes around 0.7.
+I calculated the average R-Squared value for the GWR model and found it to be 0.5072.
+Thus, while linear regression can explain 19% of the variation in pediatric dental extractions, GWR can explain 51% of the variation -- that's 32% more!
+While this GWR model is far from perfect, it is far better than the OLS alternative, and in certain regions of the country is highly accurate.
+
+One major limitation of both the original study and my replication is the manner in which the outcome variable was provided.
+If the number of dental extractions had been provided at a more granual level, we may have been able to observe stronger spatial patterns.
+Additionally, because some of the data was excluded due to privacy concerns, about 37% of the data in the original table had to be imputed with 0s.
+This represents a major limitation of the analysis because it makes the model underestimate the coefficients for any local authority that had very few pediatric dental extractions.
+A limitation of my replication in particular is that predictor variables were exclusively social variables.
+I had hoped to include a more established denistry-related variable such as fluoridation levels in drinking water, but struggled to find good data for the UK.
 
 ## Conclusions
 
-What are the broader implications of the research results for the environment or society? Do the results suggest the need for future research?
+By completing this replication of Broomhead et al's study, I verified their results and made several improvements & extensions to their methods.
+As they had determined using their own explanatory variables, the relationships between explanatory variables and pediatric dental extractions vary greatly across space.
+Some of those relationships are statistically significant, but many of them are not, indicating that the selected indicators do a subpar job of modeling outcomes.
+
+In the original paper, the response variable was not normalized and old cartographic boundaries were used for the analysis.
+I improved the study by normalizing the response variable, dental extractions, with respect to population, and cleaning the data such that all variables match current local authority boundaries in the UK.
+I also extended the study by producing a reproducible research compendium and evaluating whether a regression model is appropriate given my explanatory variables and comparing OLS regression and GWR performance using R-Squared values.
+Overall, I found that the dataset satisfies the conditions for regression and that GWR far outperforms OLS regression, but the predictors used in this analysis perform relatively poorly on their own.
+Perhaps there are other indicators, such as water fluoridation, which demonstrate more statistically significant results; further research ought to assess this possibility.
 
 ## References
 
 - Lu, Binbin, Paul Harris, Martin Charlton, and Chris Brunsdon. 2014. “The Gwmodel R Package: Further Topics for Exploring Spatial Heterogeneity Using Geographically Weighted Models.” Geo-Spatial Information Science 17 (2): 85–101.
 - Broomhead, T., Rodd, H. D., Baker, S. R., Jones, K., Davies, G., White, S., Wilcox, D., Allen, Z., & Marshman, Z. (2021). National patterns in paediatric hospital admissions for dental extractions in England. Community Dentistry and Oral Epidemiology, 49(4), 322–329. [https://doi.org/10.1111/cdoe.12603](https://doi.org/10.1111/cdoe.12603)
+- Variance Inflation Factor background information: [https://online.stat.psu.edu/stat462/node/180/](https://online.stat.psu.edu/stat462/node/180/)
+- [Handout](assets/final-report/Conditions_for_Linear_Regression.pdf) from my data science class on the conditions for linear regression
 - GWR Tutorials:
   - [https://gdsl-ul.github.io/san/gwr.html](https://gdsl-ul.github.io/san/gwr.html)
   - [https://cran.r-project.org/web/packages/spgwr/spgwr.pdf](https://cran.r-project.org/web/packages/spgwr/spgwr.pdf)
   - [https://rpubs.com/quarcs-lab/tutorial-gwr1](https://rpubs.com/quarcs-lab/tutorial-gwr1)
   - [https://rstudio-pubs-static.s3.amazonaws.com/44975_0342ec49f925426fa16ebcdc28210118.html](https://rstudio-pubs-static.s3.amazonaws.com/44975_0342ec49f925426fa16ebcdc28210118.html)
-
-
-
-
-multiple hypohtesis testing stuff
-
-update both repositories!
-
-Original paper should have used a diverging color scheme?
-Original paper should have normalized their response variable
