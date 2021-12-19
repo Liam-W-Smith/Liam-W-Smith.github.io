@@ -49,6 +49,6 @@ While they are seldom perfect, especially when it comes to code comments, resear
 As academics increasingly document their work with online research compendia, geospatial knowledge is sure to become more accessible to fellow academics, students, and the general public, and geospatial studies are sure to become more reproducible.
 
 **References**
-- Wang, S. (2019). Cyberinfrastructure. The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2019 Edition), John P. Wilson (Ed.). DOI: 10.22224/gistbok/2019.2.4
-- Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. International Journal of Health Geographics 19 (1):1–17. DOI:10.1186/s12942-020-00229-x.
+- Wang, S. (2019). Cyberinfrastructure. The Geographic Information Science & Technology Body of Knowledge (2nd Quarter 2019 Edition), John P. Wilson (Ed.). DOI: [10.22224/gistbok/2019.2.4](https://gistbok.ucgis.org/bok-topics/cyberinfrastructure)
+- Kang, J. Y., A. Michels, F. Lyu, Shaohua Wang, N. Agbodo, V. L. Freeman, and Shaowen Wang. 2020. Rapidly measuring spatial accessibility of COVID-19 healthcare resources: a case study of Illinois, USA. International Journal of Health Geographics 19 (1):1–17. DOI:[10.1186/s12942-020-00229-x](https://ij-healthgeographics.biomedcentral.com/articles/10.1186/s12942-020-00229-x).
 - Kedron, Peter and Joseph Holler, 2021-08-23, Geospatial Fellows Webinar Series: [Working with students to reproduce COVID-19 research to establish the credibility of findings and accelerate policymaker adoption](https://aag-geospatialfellows-series.secure-platform.com/a/solicitations/16/sessiongallery/250)
