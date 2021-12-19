@@ -6,20 +6,15 @@ title: Chakraborty Reproduction
 ## Chakraborty's Work
 
 In *Social inequities in the distribution of COVID-19: An intra-categorical analysis of people with disabilities in the U.S.*, Jayajit Chakraborty conducts "the first national scale study of the relationship between COVID-19 incidence and disability characteristics in the U.S."
-His goal is to determine whether there is a relationship between COVID-19 prevalence and high concentrations of people with disabilities (PwDs), particularly socio-economically disadvantaged PwDs, categorized by:
-- Race
-- Ethnicity
-- Poverty status
-- Age
-- Biological sex
+His goal is to determine whether there is a relationship between COVID-19 prevalence and high concentrations of people with disabilities (PwDs), particularly socio-economically disadvantaged PwDs, categorized by race, ethnicity, poverty status, age, and biological sex
 
 His work draws on two data sources:
-1. County level COVID-19 statistics from Johns Hopkins -- both totals and cases per 100,000.
-2. 2018 American Community Survey data -- PwD counts categorized by race, ethnicity, poverty status, age, and biological sex, fromm which Chakraborty calculates rates.
+1. **County level COVID-19 statistics** from Johns Hopkins -- both totals and cases per 100,000.
+2. **2018 American Community Survey data** -- PwD counts categorized by race, ethnicity, poverty status, age, and biological sex, from which Chakraborty calculates rates.
 
 To address his question, Chakraborty applies two statistical techniques.
 
-**First**, he calculates bivariate Pearson correlation coefficients in order to quantify the correlations between COVID-19 prevalence and each disability.
+First, he calculates bivariate Pearson correlation coefficients in order to quantify the correlations between COVID-19 prevalence and each disability.
 Like other statistical techniques describing correlations, bivariate Pearson corrrelation coefficients are all calculate on a scale from -1 to 1, where -1 indicates a perfect negative relationship, a 0 indicates no relationship, and a 1 indicates a perfect positive relationship.
 Chakraborty's results are displayed in the following figure, copied from his paper.
 
@@ -33,7 +28,7 @@ In the table, it appears that traditionally advantaged subsets of PwDs, like men
 Given what we already know about the COVID-19 pandemic, this makes sense.
 Marginalized communities tend to have inadequate access to healthcare resources, live in more crowded housing conditions, and work in essential fields at higher rates than the general population, all factors which increase their risk of catching COVID-19.   
 
-**Second**, Chakraborty uses General Estimating Equations (GEEs) to adjust for spatial autocorrelation when examining the correlations between his predictor and response variables.
+Second, Chakraborty uses General Estimating Equations (GEEs) to adjust for spatial autocorrelation when examining the correlations between his predictor and response variables.
 To calculate a GEE, one must first define spatial clusters of observations.
 GEEs generate correlation coefficients, much like the Pearson's r, under the assumption that observations within a cluster are correlated and observations in different clusters are independent.
 Chakraborty categorizes counties into different clusters based on two factors:
