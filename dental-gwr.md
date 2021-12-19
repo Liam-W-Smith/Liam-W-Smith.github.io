@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Final Project: Geographically Weighted Regression
+title: Final Project Geographically Weighted Regression
 ---
 Liam Smith, Middlebury College
 
