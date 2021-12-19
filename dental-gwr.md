@@ -466,13 +466,17 @@ What are the broader implications of the research results for the environment or
 
 ## References
 
-list required packages and enviromnet?
+- GWR Tutorials:
+  - [https://gdsl-ul.github.io/san/gwr.html](https://gdsl-ul.github.io/san/gwr.html)
+  - [https://cran.r-project.org/web/packages/spgwr/spgwr.pdf](https://cran.r-project.org/web/packages/spgwr/spgwr.pdf)
+  - [https://rpubs.com/quarcs-lab/tutorial-gwr1](https://rpubs.com/quarcs-lab/tutorial-gwr1)
+  - [https://rstudio-pubs-static.s3.amazonaws.com/44975_0342ec49f925426fa16ebcdc28210118.html](https://rstudio-pubs-static.s3.amazonaws.com/44975_0342ec49f925426fa16ebcdc28210118.html)
+- Lu, Binbin, Paul Harris, Martin Charlton, and Chris Brunsdon. 2014. “The Gwmodel R Package: Further Topics for Exploring Spatial Heterogeneity Using Geographically Weighted Models.” Geo-Spatial Information Science 17 (2): 85–101.
+- Broomhead, T., Rodd, H. D., Baker, S. R., Jones, K., Davies, G., White, S., Wilcox, D., Allen, Z., & Marshman, Z. (2021). National patterns in paediatric hospital admissions for dental extractions in England. Community Dentistry and Oral Epidemiology, 49(4), 322–329. [https://doi.org/10.1111/cdoe.12603](https://doi.org/10.1111/cdoe.12603)
 
-![GWR Visual, Fixed Spatial Kernel](assets/gwr_visual.png)
-![GWR Visual, Adaptive Kernel](assets/adaptive_kernel_gwr.png)
-From https://gdsl-ul.github.io/san/gwr.html
 
-Lu, Binbin, Paul Harris, Martin Charlton, and Chris Brunsdon. 2014. “The Gwmodel R Package: Further Topics for Exploring Spatial Heterogeneity Using Geographically Weighted Models.” Geo-Spatial Information Science 17 (2): 85–101.
+
+
 
 multiple hypohtesis testing stuff
 
