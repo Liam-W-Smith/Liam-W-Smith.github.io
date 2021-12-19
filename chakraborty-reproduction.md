@@ -81,7 +81,7 @@ In our reproduction, we instead calculate the relative risk for every county wit
 The figure below illustrates that this modification results in substantially more counties being designated as higher risk.
 The map on the left shows the relative risk classes using Chakraborty's method while the map on the right shows the relative risk classes using our improved method.
 
- ![Chakraborty Figure](assets/chakraborty_merged.png)
+ ![Chakraborty Figure](assets/chakraborty-merged.png)
 
 After running GEEs on our reclassified data, we found that our results were still very similar to Chakraborty's.
 Even with our modified RR scores, the signs of the correlation corresponding to each variable remained the same.
