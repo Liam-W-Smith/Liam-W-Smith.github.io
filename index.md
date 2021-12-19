@@ -2,6 +2,11 @@
 layout: default
 title: Main page
 ---
+
+Hey!
+My name is Liam and I'm a sophomore at Middlebury College studying geography and math.
+This website documents all of the work I've done in [GEOG 323: Open Source GIScience](https://gis4dev.github.io/).
+
 ## GIS Analyses
 1. [Flood Risk and Food Access in Dar Es Salaam](/Dar-Es-Salaam-Vulnerability/report)
 2. [Spatial Accessibility of COVID-19 Healthcare Resources in Chicago](COVID-19-spatial-accessibility)
