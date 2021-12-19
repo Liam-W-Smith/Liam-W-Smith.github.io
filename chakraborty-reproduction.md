@@ -5,8 +5,8 @@ title: Chakraborty Reproduction
 
 ## Chakraborty's Work
 
-In *Social inequities in the distribution of COVID-19: An intra-categorical analysis of people with disabilities in the U.S.*, Jayajit Chakraborty conducts "the first national scale study of the relationship between COVID-19 incidence and disability characteristics in the U.S."
-His goal is to determine whether there is a relationship between COVID-19 prevalence and high concentrations of people with disabilities (PwDs), particularly socio-economically disadvantaged PwDs, categorized by race, ethnicity, poverty status, age, and biological sex
+In *Social inequities in the distribution of COVID-19: An intra-categorical analysis of people with disabilities in the U.S.*, Jayajit Chakraborty published the first nationwide study on the relationship between COVID-19 rates and disability characteristics in the US.
+His goal was to determine whether there is a relationship between COVID-19 prevalence and high concentrations of people with disabilities (PwDs), particularly socio-economically disadvantaged PwDs, categorized by race, ethnicity, poverty status, age, and biological sex
 
 His work draws on two data sources:
 1. **County level COVID-19 statistics** from Johns Hopkins -- both totals and cases per 100,000.
