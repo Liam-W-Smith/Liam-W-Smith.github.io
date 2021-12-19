@@ -29,7 +29,7 @@ The Kang et al. study draws on four datasets:
 4. A **road network dataset** queried from OpenStreetMap using the Python package, OSMnx.
 
 The provided research notebook includes only the data for the City of Chicago, because it is computationally burdensome for users to conduct this reproduction on the entire state of Illinois.
-In order to deal with boundary issues (i.e. sometimes the fastest route to a hospital in Chicago uses streets outside the city), the road network provided for reproduction extends 15 miles past the boundaries of Chicago.
+In order to deal with boundary issues (i.e. sometimes the fastest route to a hospital in Chicago uses streets outside the city), a past GEOG 323 class revised the original methodology, extending the road network 15 miles past the boundaries of Chicago.
 However, the population data provided by the authors contained information exclusively for the tracts within Chicago.
 Residents of the Chicago suburbs can, and likely do, take advantage of the services provided by the hospitals physically within the city.
 For this reason, we know that a more accurate analysis would incorporate population information of Chicago's suburbs.
