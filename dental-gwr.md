@@ -445,11 +445,9 @@ The code used to generate these maps is included in my replication repository.
 *Figure 4: Coefficients and their statistical significance for the unemployment rate. n = 30 local authorities with statistically significant results.*
 
 I also created the following maps to illustrate the accuracy of the model's predictions.
-![Results for Dental Extractions](assets/final-report/extractions-merged.png)
-*Figure 5: Actual extraction rates and predicted extraction rates.*
+![Results for Dental Extractions](assets/final-report/extractions-fullmerge.png)
+*Figure 5: Actual extraction rates, predicted extraction rates, and associated R-Squared values.*
 
-![Distribution of R-Squared Values](assets/final-report/R-Squared.png)
-*Figure 6: Spatial distribution of R-Squared values for the GWR model.*
 
 ## Discussion
 
