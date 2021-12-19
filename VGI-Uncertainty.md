@@ -73,5 +73,5 @@ At the end of the day, VGI such as Twitter data can provide tremendous assistanc
 We must be aware of the uncertainties and biases present in VGI and be careful not to misuse data in a way that violates one's safety and one's right to privacy.
 
 **References:**
-- Crawford, K., & Finn, M. (2015). The limits of crisis data: Analytical and ethical challenges of using social and mobile data to understand disasters. GeoJournal, 80(4), 491–502. https://doi.org/10.1007/s10708-014-9597-z
+- Crawford, K., & Finn, M. (2015). The limits of crisis data: Analytical and ethical challenges of using social and mobile data to understand disasters. GeoJournal, 80(4), 491–502. [https://doi.org/10.1007/s10708-014-9597-z](https://doi.org/10.1007/s10708-014-9597-z)
 - Professor Holler's [Research Compendium](https://github.com/GIS4DEV/OR-Dorian) for his analysis of Hurricane Dorian
