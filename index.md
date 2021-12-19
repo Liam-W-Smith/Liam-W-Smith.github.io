@@ -6,6 +6,7 @@ title: Main page
 1. [Flood Risk and Food Access in Dar Es Salaam](/Dar-Es-Salaam-Vulnerability/report)
 2. [Spatial Accessibility of COVID-19 Healthcare Resources in Chicago](COVID-19-spatial-accessibility)
 3. [Hurricane Ida Spatial Twitter Analysis](hurricane-ida-spatial-twitter-analysis)
+4. [Replication of Broomhead et al with Geographically Weighted Regression](dental-gwr)
 
 ## Blog Posts
 
