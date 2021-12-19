@@ -151,11 +151,14 @@ The authors of the study are some of our top geospatial researchers, and they st
 If anything, this reproduction drew my attention to the importance of reproducing academic studies.
 All of us, even those at the top of the field, make mistakes, and a thorough peer review process is critical to addressing those errors.
 
-Another key takeaway is that undocumented pre-processing of data poses signficant barriers to reproducibility.
+Another key takeaway is that undocumented pre-processing of data poses significant barriers to reproducibility.
 While the authors performed some manipulations on their data simply to format it for the study, they do not document those manipulations in their code.
 For this reason, when we extended the geographic extent of the residential database, we had no model to work off of and had to develop our own method.
 
 Overall, Kang et al's study on spatial accessibility of COVID-19 healthcare resources is reproducible, and their Jupyter notebook on CyberGISX provides the public with all of the information necessary to computationally reproduce their analysis in Chicago.
 There are, however, a couple areas in which the work could be improved.
-Future work on the notebook could include documentating their data preprocessing and adding more comments to their code to make it easier to assess their methodology.
+Future work on the notebook could include documenting their data preprocessing and adding more comments to their code to make it easier to assess their methodology.
+Additionally, to account for the fact that residents outside of the study region (which we added in this revision) could also access relevant hospitals, the road network ought to be extended even further than the GEOG 323 Spring 2021 did.
+Since hospital catchment areas are 30 minutes of driving time, extending the road network 60 miles past the boundary of Chicago would be adequate.
+Further than that distance, even an individual traveling at the maximum speed limit in a straight line would not be included in catchment areas, so they would be irrelevant to our analysis.
 This Jupyter notebook is already an incredibly valuable tool for teaching and learning the methods of reproducible GIS, and continual work on the notebook will only continue to improve its functionality.
