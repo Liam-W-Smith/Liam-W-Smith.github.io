@@ -48,7 +48,7 @@ This paradigm shift in the incentive structure of academia would reduce the liab
 
 In the field of geography, studies may be non-replicable or non-reproducible for the standard reasons, such as the unavailability of data and methodology.
 However, studies could also fail to be reproducible or replicable for reasons beyond any open source fix.
-Geography has integrates several ways of knowing, including non-scientific ones, which pose challenges to reproducibility and replicability.
+Geography integrates several ways of knowing, including non-scientific ones, which pose challenges to reproducibility and replicability.
 Specifically, geography benefits from both idiographic and nomothetic approaches to knowledge.
 The idiographic approach to knowledge, described by Kant as a tendency to specify, is when one looks for categorical ways to distinguish different phenomena from each other.
 Geography exemplifies this mode of inquiry because it seeks to analyze and distinguish between different regions.
