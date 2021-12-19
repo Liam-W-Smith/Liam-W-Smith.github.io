@@ -158,7 +158,7 @@ For this reason, when we extended the geographic extent of the residential datab
 Overall, Kang et al's study on spatial accessibility of COVID-19 healthcare resources is reproducible, and their Jupyter notebook on CyberGISX provides the public with all of the information necessary to computationally reproduce their analysis in Chicago.
 There are, however, a couple areas in which the work could be improved.
 Future work on the notebook could include documenting their data preprocessing and adding more comments to their code to make it easier to assess their methodology.
-Additionally, to account for the fact that residents outside of the study region (which we added in this revision) could also access relevant hospitals, the road network ought to be extended even further than the GEOG 323 Spring 2021 did.
+Additionally, to account for the fact that residents outside of Chicago (which we added in this revision) could also access the hospitals outside of the city that are included in this analysis, the road network ought to be extended even further.
 Since hospital catchment areas are 30 minutes of driving time, extending the road network 60 miles past the boundary of Chicago would be adequate.
-Further than that distance, even an individual traveling at the maximum speed limit in a straight line would not be included in catchment areas, so they would be irrelevant to our analysis.
+Further than that distance, even an individual traveling at the maximum speed limit in a straight line would not be included in any catchment areas, so they would be irrelevant to our analysis.
 This Jupyter notebook is already an incredibly valuable tool for teaching and learning the methods of reproducible GIS, and continual work on the notebook will only continue to improve its functionality.
