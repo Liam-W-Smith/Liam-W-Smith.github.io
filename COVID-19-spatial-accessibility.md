@@ -107,7 +107,7 @@ The following maps reveal the accessibility of ICU beds and ventilators to vulne
 Darker blue represents higher spatial accessibility and lighter blue represents lower spatial accessibility.
 
 ### Accessibility of ICU Beds to Vulnerable Populations
-#### Original Figure
+#### Original Figure (after revisions by GEOG 323 Spring 2021)
 ![Accessibility of ICU Beds to Vulnerable Populations, original figure](assets/Kang_OG_Reproduction/pop_icu_class.png)
 #### Updated Figure
 ![Accessibility of ICU Beds to Vulnerable Populations, updated figure](assets/Kang_Class_Reproduction/pop_icu_class.png)
@@ -116,7 +116,7 @@ The new figure also includes a section of light blue in the northwest, which was
 We will discuss these results further after reviewing the second set of figures.
 
 ### Accessibility of Ventilators to Vulnerable Populations
-#### Original Figure
+#### Original Figure (after revisions by GEOG 323 Spring 2021)
 ![Accessibility of Ventilators to Vulnerable Populations, original figure](assets/Kang_OG_Reproduction/pop_vents_class.png)
 #### Updated Figure
 ![Accessibility of Ventilators to Vulnerable Populations, updated figure](assets/Kang_Class_Reproduction/pop_vents_class.png)
