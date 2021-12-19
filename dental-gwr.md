@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Replication Study with Geographically Weighted Regression
+title: Replication Study using Geographically Weighted Regression
 ---
 Liam Smith, Middlebury College
 
@@ -58,7 +58,7 @@ Note that complete documentation of my procedure is available in [this R markdow
 #### Cleaning the Extractions Data
 
 First, I read the extractions csv and extract data from the year of interest.
-```{r}
+```r
 extractions <- read_csv(here("data", "raw", "public", "extractions.csv"))
 extractions <- extractions %>%
   filter(Year == 1718)
@@ -69,14 +69,14 @@ I need to perform some imputations in order to consider every local authority, a
 Since all other subnational figures are rounded to the nearest 5, it is impossible to calculate an accurate average of the missing data.
 I choose to simply impute a 0 where data is missing.
 Note that 37.7% of the data is missing, so I am discounting a large amount of data.
-```{r}
+```r
 extractions <- extractions %>%
   mutate(Count = if_else(Count == '*', '0', Count))
 ```
 
 The data was provided in a format where one observation represented a specific age groups in each local authority (i.e. there were several observations for each local authority).
 Local authorities are uniquely identified by ONS_code, so I group by the ONS_code and sum the extractions count in order to generate a dataset where one observation represents one local authority.
-```{r}
+```r
 extractions <- extractions %>%
   group_by(ONS_code) %>%
   summarise(extractions = sum(Count))
@@ -86,7 +86,7 @@ Later on, I will have to join this data set with my other two data sets.
 I have already mentioned that several local authorities merged to form larger ones, and I will reveal how I address that when I discuss how I cleaned my other two data sets.
 Additionally, some local authorities have received new uniquely idenitifying local authority codes in the last few years (Sources: [https://l-hodge.github.io/ukgeog/articles/boundary-changes.html](https://l-hodge.github.io/ukgeog/articles/boundary-changes.html) and [https://www.bbc.com/news/uk-england-somerset-44289087](https://www.bbc.com/news/uk-england-somerset-44289087)).
 This data set actually uses the updated codes, but the other two datasets use the old codes, so I manually change the codes in this dataset to match the other ones.
-```{r}
+```r
 extractions <- extractions %>%
   mutate(ONS_code = if_else(ONS_code == "E06000057", "E06000048", ONS_code),
          ONS_code = if_else(ONS_code == "E07000240", "E07000100", ONS_code),
@@ -99,7 +99,7 @@ extractions <- extractions %>%
 #### Cleaning the Census Data
 
 First I import the census data as uk_census and rename relevant variables to have more useful names.
-```{r}
+```r
 uk_census <- read_csv(here("data", "raw", "public", "uk_census.csv"))
 uk_census <- uk_census %>%
   rename("all_usual_residents" = "SE_T001_001",
@@ -130,7 +130,7 @@ I want to join the aggregated data back to my uk_census dataset using the row bi
 For this reason, I create a new table with all of the missing columns, and column bind it to my aggregated local authority data.
 Finally, I row bind the updated local authority to my uk_census dataset and repeat the process for the other 5 new local authorities.
 
-```{r}
+```r
 E06000058 <- uk_census %>%
   filter(Geo_LA_CODE == "E06000028" | Geo_LA_CODE == "E07000048" | Geo_LA_CODE == "E06000029") %>%
   #  Bournemouth + Christchurch + Poole merge to become Bournemouth, Christchurch and Poole.  
@@ -147,7 +147,7 @@ uk_census <- rbind(uk_census, E06000058_done)
 
 Up to this point, all of the relevant variables were given as counts.
 I now normalize the variables I'm interested in and select just the variables I care about.
-```{r}
+```r
 uk_census <- uk_census %>%
   mutate(pctChild = (under5 + `5to9` + `10to14` +`15to17`)/all_usual_residents,
          single_parent_households_ph = single_parent_households/num_households,
@@ -163,7 +163,7 @@ uk_census <- uk_census %>%
 #### Cleaning the Geometry Data
 
 First, I load my geometry data as an sf object and select only the variables I care about (geometry is automatically kept).
-```{r}
+```r
 local_authorities <- read_sf(here("data", "raw", "private", "local_authorities.gpkg"))
 
 local_authorities <- local_authorities %>%
@@ -177,7 +177,7 @@ Again, I performed the same workflow for 6 new local authorities, but I include 
 First I define a new object composed of only the relevant local authorities, and I use the st_union function to dissolve their geometries into one.
 I transform the object into an sf object, define the geo_code to be the updated local authority code, and row bind this to the whole local_authorities dataset.
 Then I repeat the process for the other 5 new local authorities.
-```{r}
+```r
 gE06000058 <- local_authorities %>%
   filter(geo_code == "E06000028" | geo_code == "E07000048" | geo_code == "E06000029")%>%
   st_union()
@@ -190,7 +190,7 @@ local_authorities <- rbind(local_authorities, gE06000058)
 ```
 
 There were two other local authorities with different codes in this data set and I simply replace the local authority codes with the ones that the other two datasets use.
-```{r}
+```r
 local_authorities <- local_authorities %>%
   mutate(geo_code = if_else(geo_code == "E41000052", "E06000052", geo_code),
          geo_code = if_else(geo_code == "E41000324", "E09000033", geo_code))
@@ -199,7 +199,7 @@ local_authorities <- local_authorities %>%
 #### Joining the Data Sets, Final Touches
 
 I perform two joins in order to get the geometry, census data, and extractions data all in one dataset.
-```{r}
+```r
 join1 <- inner_join(local_authorities, extractions, by = c("geo_code" = "ONS_code"))
 
 dentistry <- inner_join(join1, uk_census, by = c("geo_code" = "Geo_LA_CODE"))
@@ -209,7 +209,7 @@ With all of the data in the same place, I can now normalize the number of pediat
 I define my outcome variable as the number of pediatric extractions per 100,000 residents.
 This is an improvement from Broomhead et al's methodology, as they used the raw count of extractions as their outcome variable.
 Their method is poor practice because it exaggerates relationships in urban centers, where the number of dental extractions is higher due simply to the presence of more people, not their explanatory variables.
-```{r}
+```r
 dentistry <- dentistry %>%
   mutate(extraction_rate = extractions/all_usual_residents*100000)
 ```
@@ -230,7 +230,7 @@ One should know, however, that it's possible for these conditions to hold up in 
 This represents an improvement from the original paper, as Broomhead et al did not describe any work to confirm the validity of their model.
 
 The first issue I check for is *multicollinearity*: where several explanatory variables are closely related. To assess the relationships between my variables, I created a corrplot that displays the Pearson correlation coefficients between pairs of quantitative variables.
-```{r correlation}
+```r
 # select the relevant variables
 dentistry_nogeom <- dentistry_nogeom %>%
   select(extraction_rate, pctChild, single_parent_households_ph, foreign_rate, severe_disability_rate, crowded_rate, unemployment_rate)
@@ -255,7 +255,7 @@ Specifically, I remove crowded_rate and single_parent_households_ph.
 I'll perform a more rigorous test for multicollinearity after fitting a linear model.
 
 I fit the linear regression model.
-```{r}
+```r
 m <- lm(formula = extraction_rate ~ pctChild + severe_disability_rate + foreign_rate + unemployment_rate, data = dentistry_nogeom)
 ```
 
@@ -266,7 +266,7 @@ I hope that applying a Geographically Weighted Regression model will improve the
 To test the independent variables in this model more robustly for multicollinearity, I use a statistical test known as the Variance Inflation Factor (VIF).
 For context, when the VIF = 1, no multicollinearity is present. Generally, there is cause for concern when the VIF >= 10.
 For further reading on Variance Inflation Factors, please see: [https://online.stat.psu.edu/stat462/node/180/](https://online.stat.psu.edu/stat462/node/180/).
-```{r}
+```r
 vif(m)
 ```
 
@@ -283,7 +283,7 @@ A more rigorous methodology to determine multicollinearity for Geographically We
 The second condition that I check for is *linearity*.
 Both OLS and GWR models assume that each explanatory variable exhibits a linear relationship with the response variable, so I create scatterplots that will reveal whether each explanatory variable in my model is linearly related with my response variable.
 
-```{r}
+```r
 dentistry_relevant <- dentistry_nogeom %>%
   select(foreign_rate, pctChild, severe_disability_rate, unemployment_rate, extraction_rate)
 
@@ -309,7 +309,7 @@ It's not perfect, but for the purposes of this assignment, we will proceed.
 The third condition that I check for is *homoscedasticity*: constant variability along the least squares line.
 I check this condition by creating a residual plot.
 
-```{r}
+```r
 m_aug <- augment(m)
 
 residual_plot <- ggplot(m_aug, aes(x = .fitted, y = .resid)) +
@@ -327,7 +327,7 @@ Since residuals exhibit relatively constant variability along the zero line, thi
 The final condition for linear regression is a *normal distribution of residuals*.
 I check this condition by creating a histogram below.
 
-```{r histogram of residuals}
+```r
 residual_histogram <- ggplot(m_aug, aes(x = .resid)) +
   geom_histogram()+
   xlab("Residuals")+
@@ -368,14 +368,14 @@ If I were to use a fixed kernel, then urban areas would include more data in the
 #### Fitting the Geographically Weighted Regression Model
 
 The GWR model in the *spgwr package* requires point geometry coordinates as inputs, so I find the coordinates for each local authority's centroid.
-```{r}
+```r
 centroids <- dentistry %>%
   st_centroid() %>%
   st_coordinates()
 ```
 
 The syntax for the GWR model is simpler for sp objects, so I convert dentistry to an sp object.
-```{r}
+```r
 dentistry.sp <- as(dentistry, "Spatial")
 ```
 
@@ -384,20 +384,20 @@ The following code chunk uses the *gwr.sel* function in order to identify the op
 If you run this, you'll notice that the function reports a series of *adaptive q* values and *CV score* values.
 Adaptive q refers to the proportion of observations that are included in a neighborhood, while CV score is a measure of how good of a fit the model, where a lower score represents a better fit.
 Essentially, this function finds the CV score corresponding to a number of different Adaptive q values and selects the Adaptive q that results in the smallest CV score.
-```{r}
+```r
 GWRbandwidth_adapt <- gwr.sel(extraction_rate ~ pctChild + severe_disability_rate + foreign_rate + unemployment_rate, data = dentistry.sp, adapt = T)
 ```
 
 My optimal adaptive kernel size, GWRbandwidth_adapt, incorporates the nearest 11 points in local regression calculations.
 Using this kernel size as one input, I fit a GWR model as follows.
-```{r}
+```r
 GWR_adapt <- gwr(extraction_rate ~ pctChild + severe_disability_rate + foreign_rate + unemployment_rate, data = dentistry.sp, adapt = GWRbandwidth_adapt, hatmatrix = T, se.fit = T)
 ```
 
 The model automatically outputs as a list, which contains several nested lists and is difficult to work with.
 In order to get our GWR results into a form with I'm familiar with, I convert it to a Data Frame and attach it to the original dentistry.sf data.
 
-```{r}
+```r
 results <-as.data.frame(GWR_adapt$SDF)
 gwr.map_adapt <- cbind(dentistry, as.matrix(results))
 ```
@@ -408,7 +408,7 @@ The maps on the left display the coefficients for the predictor in each local au
 Unfortunately, they do not describe how they determined statistical significance, so I had to figure out my own methodology.
 I decided to follow the approach presented in section 9.6.7 of this ["Spatial Modelling for Data Scientists" tutorial](https://gdsl-ul.github.io/san/gwr.html).
 Using the coefficients and corresponding standard errors calculated by the GWR model, I calculated the test statistic: t = (estimated coefficient)/(standard error).
-```{r}
+```r
 gwr.map_adapt <- gwr.map_adapt %>%
   mutate(t_pct_child = pctChild.1/pctChild_se,
          t_foreign_rate = foreign_rate.1/foreign_rate_se,
