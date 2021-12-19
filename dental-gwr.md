@@ -443,7 +443,7 @@ The code used to generate these maps is included in my replication repository.
 
 *Figure 3: Coefficients and their statistical significance for percent foreign-born. n = 131 local authorities with statistically significant results.*
 
-![Results for Unemployment Rate](assets/final-report/unemplyment-merged.png)
+![Results for Unemployment Rate](assets/final-report/unemployment-merged.png)
 
 *Figure 4: Coefficients and their statistical significance for the unemployment rate. n = 30 local authorities with statistically significant results.*
 
