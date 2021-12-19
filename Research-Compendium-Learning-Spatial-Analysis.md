@@ -14,7 +14,7 @@ With the click of a button, users can run the code in the notebook, generating a
 Cyberinfrastructure is essential for **CyberGIS**, which is geospatial analysis that draws on the computational power of supercomputers.
 By publishing research notebooks on CyberGIS platforms, cutting edge researchers not only allow others to reproduce their results, but also endow people with the computational power with which they can actually complete the computations.
 
-A prevalent example of CyberGIS is the CyberGISX project, which allows individuals across the country, including us students at Middlebury College, to run GIS code on the same bank of supercomputers used by researchers at the University of Illinois Urbana-Champaign.
+A prevalent example of CyberGIS is the [CyberGISX project](https://cybergisxhub.cigi.illinois.edu/), which allows individuals across the country, including us students at Middlebury College, to run GIS code on the same bank of supercomputers used by researchers at the University of Illinois Urbana-Champaign.
 This CyberGIS project, and others like it, aim to create a collaborative, distributed, and large scale geospatial community running GIS analyses on high performance supercomputers.
 
 While it's difficult for geospatial researchers to reproduce studies without a research notebook, it's even more challenging for students.
