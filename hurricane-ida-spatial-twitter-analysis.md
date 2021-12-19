@@ -9,7 +9,7 @@ Version 1.0 | Created 2021-11-28 | Last Updated 2021-11-28
 ## Important links
 
 - [My replication research repository](https://github.com/Liam-W-Smith/Dorian-Replication)
-- [Professor Holler's original research repository]([Research Compendium](https://github.com/GIS4DEV/OR-Dorian)
+- [Professor Holler's original research repository](https://github.com/GIS4DEV/OR-Dorian)
 
 ## Abstract
 As social media use has risen, a massive quantity of Volunteered Geographic Information has become available to the general public.
