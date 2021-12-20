@@ -13,7 +13,7 @@ Their original study applied Geographically Weighted Regression using the spgwr 
 In this replication, I use different, more easily accessible, explanatory variables to predict the same response variable.
 I verify that Geographically Weighted Regression is a reasonable model for this data set, make a few improvements to their methodology, and find that my model performs similarly to theirs.
 
-To see my complete research compendium for this project, [click here](https://github.com/Liam-W-Smith/dental-gwr)
+To see my complete **research compendium** for this project, [click here](https://github.com/Liam-W-Smith/dental-gwr)
 
 ### Keywords
 
@@ -473,7 +473,7 @@ My first predictor, the percentage of population composed by children, shows tha
 This makes sense to me, because there should be more pediatric dental extractions where there are more children.
 My second and third predictors, the percent of disabled and foreign-born individuals, also have primarily positive significant coefficients.
 I'm not sure why this is true: perhaps these individuals are more likely to take children with tooth issues to a dentist or perhaps they are more likely to have tooth issues themselves?
-My final predictor, the unemployment rate, actual exhibits more negative than positive significant coefficients.
+My final predictor, the unemployment rate, actually exhibits more negative than positive significant coefficients.
 Rather than a sign of good-health, this may have occured because unemployed people are less able to afford expensive tooth procedures.
 
 I also extend the analysis to generate predicted extractino rates around the UK.
