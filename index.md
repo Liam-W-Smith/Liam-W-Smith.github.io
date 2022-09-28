@@ -4,7 +4,7 @@ title: Main page
 ---
 
 Hey!
-My name is Liam and I'm a sophomore at Middlebury College studying geography and math.
+My name is Liam and I'm a junior at Middlebury College studying geography and math.
 This website documents the work I've done in [GEOG 323: Open Source GIScience](https://gis4dev.github.io/).
 If you're interested in seeing my remote sensing work, please [click here](https://sites.middlebury.edu/lwsmithremotesensing/)
 
