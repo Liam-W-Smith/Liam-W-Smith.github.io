@@ -20,13 +20,7 @@ In this position, I checked the validity of a published study on social vulnerab
 As a part of my work, I programmed Principal Component Analysis with varimax rotation from scratch and critiqued the statistical methodology of the Social Vulnerability Index (SoVI).
 My research advisor and I wrote [this report on our work](RPr-Spielman-2020-report.pdf), which we will present at the American Association of Geographers Annual Meeting in April 2024. 
 
-## Mathematics
-
-At Middlebury, all mathematics majors are required to write a capstone thesis on a topic of interest.
-I chose to investigate two applications of spectral graph theory, applying my knowledge of linear algebra to graph theoretic problems.
-My senior thesis is [available here](thesis.pdf).
-
-## Remote Sensing Coursework
+## Remote Sensing Experience
 
 I've taken two geography courses on remote sensing using Google Earth Engine and I'm enrolled in a computer science course on image processing this spring.
 In my first remote sensing class, I learned the fundamentals of image interpretation and spatial analysis in Google Earth Engine, producing this [web app](https://lwsmith.users.earthengine.app/view/changing-ndvi-and-lst-in-cape-town) as a part of my final project.
@@ -55,3 +49,8 @@ All of my coursework for this class is hosted on my [GitHub account](https://git
 6. [Uncertainty in Volunteered Geographic Information](VGI-Uncertainty)
 7. [Reproducing Chakraborty's Analysis of COVID-19 and Disability Characteristics](chakraborty-reproduction)
 
+## Mathematics
+
+At Middlebury, all mathematics majors are required to write a capstone thesis on a topic of interest.
+I chose to investigate two applications of spectral graph theory, applying my knowledge of linear algebra to graph theoretic problems.
+My senior thesis is [available here](thesis.pdf).
