@@ -3,7 +3,10 @@ layout: default
 title: Main page
 ---
 
-| Hey! My name is Liam and I'm a senior at Middlebury College studying geography and mathematics. If you're interested in seeing my remote sensing work, please [click here](https://sites.middlebury.edu/lwsmithremotesensing/) | ![<img src="(assets/Profile_Photo.jpg" width="500"/>](assets/Profile_Photo.jpg) |
+| Hey! My name is Liam and I’m a senior at Middlebury College studying geography and mathematics. When I’m not at school, I live in Rochester, New York with my four siblings, parents, and grandma.
+I love hiking, rock climbing, and gymnastics, and I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. 
+This website serves as a portfolio for my college education and relevant work experiences.
+| ![<img src="(assets/Profile_Photo.jpg" width="500"/>](assets/Profile_Photo.jpg) |
 
 ## Research
 This past summer, I worked as a research assistant for Professor Joe Holler at Middlebury College.
@@ -12,9 +15,15 @@ As a part of my work, I programmed Principal Component Analysis with varimax rot
 My research advisor and I wrote [this report on our work](RPr-Spielman-2020-report.pdf), which we will present at the American Association of Geographers Annual Meeting in April 2024. 
 
 ## Mathematics
+
 At Middlebury, all mathematics majors are required to write a capstone thesis on a topic of interest.
 I chose to investigate two applications of spectral graph theory, applying my knowledge of linear algebra to graph theoretic problems.
 My senior thesis is [available here](thesis.pdf).
+
+## Remote Sensing
+
+In my remote sensing class, we practiced the fundamentals of image processing in Google Earth Engine, learned more advanced topics like clustering and classification, and touched on other topics like drone imagery acquisition and image processing in ArcGIS Pro.
+If you're interested in seeing my remote sensing work, please visit the website we built for this class by [clicking here](https://sites.middlebury.edu/lwsmithremotesensing/).
 
 ## Open Source GIS
 
