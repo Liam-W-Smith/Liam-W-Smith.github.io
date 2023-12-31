@@ -49,6 +49,21 @@ All of my coursework for this class is hosted on my [GitHub account](https://git
 6. [Uncertainty in Volunteered Geographic Information](VGI-Uncertainty)
 7. [Reproducing Chakraborty's Analysis of COVID-19 and Disability Characteristics](chakraborty-reproduction)
 
+## Conservation Planning
+
+In my conservation planning course, we conducted a semester-long analysis of the natural resources, habitat blocks, and habitat connectivity in the Town of Middlebury.
+The GIS papers I wrote for that class are included below.
+
+1. [Viewshed analysis](clearings_report.pdf)
+2. [Riparian conservation](riparian_report.pdf)
+3. [Habitat blocks and connectivity](final_report.pdf)
+
+## Data Science
+
+I've taken two data science courses at Middlebury: introduction to data science and statistical learning.
+For my final project in statistical learning, my group learned about fuzzy c-means clustering.
+Our report is [available here](Project.html). 
+
 ## Mathematics
 
 At Middlebury, all mathematics majors are required to write a capstone thesis on a topic of interest.
