@@ -4,7 +4,14 @@ title: Main page
 ---
 
 <img src="/assets/Profile_Photo.jpg" align="right" width="200px"/>
-Hey! My name is Liam and I’m a senior at Middlebury College studying geography and mathematics. When I’m not at school, I live in Rochester, New York with my four siblings, parents, and grandma. I love hiking, rock climbing, and gymnastics, and I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. This website serves as a portfolio for my college education and relevant work experiences.
+Hey! My name is Liam and I’m a senior at Middlebury College studying geography and mathematics.
+When I’m not at school, I live in Rochester, New York with my four siblings, parents, and grandma. 
+
+I love hiking, rock climbing, and gymnastics, and I was involved with environmental advocacy for several years.
+I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. 
+
+This website serves as a portfolio for my college education and relevant work experiences.
+Please contact me at 1liam1smith1@gmail.com with any questions.
 <br clear="left"/>
 
 <!-- | Hey! My name is Liam and I’m a senior at Middlebury College studying geography and mathematics. When I’m not at school, I live in Rochester, New York with my four siblings, parents, and grandma. I love hiking, rock climbing, and gymnastics, and I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. This website serves as a portfolio for my college education and relevant work experiences. | ![<img src="(assets/Profile_Photo.jpg" width="500"/>](assets/Profile_Photo.jpg) | -->
