@@ -3,7 +3,7 @@ layout: default
 title: Main page
 ---
 
-| Hey! My name is Liam and I'm a senior at Middlebury College studying geography and mathematics. This website documents the work I've done in [GEOG 323: Open Source GIScience](https://gis4dev.github.io/). If you're interested in seeing my remote sensing work, please [click here](https://sites.middlebury.edu/lwsmithremotesensing/) | ![Profile Photo](assets/Profile_Photo.jpg) |
+| Hey! My name is Liam and I'm a senior at Middlebury College studying geography and mathematics. This website documents the work I've done in [GEOG 323: Open Source GIScience](https://gis4dev.github.io/). If you're interested in seeing my remote sensing work, please [click here](https://sites.middlebury.edu/lwsmithremotesensing/) | ![<img src="(assets/Profile_Photo.jpg" width="250"/>](assets/Profile_Photo.jpg) |
 
 ## GIS Analyses
 1. [Flood Risk and Food Access in Dar Es Salaam](/Dar-Es-Salaam-Vulnerability/report)
