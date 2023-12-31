@@ -24,13 +24,13 @@ My research advisor and I wrote [this report on our work](RPr-Spielman-2020-repo
 
 I've taken two geography courses on remote sensing using Google Earth Engine and I'm enrolled in a computer science course on image processing this spring.
 In my first remote sensing class, I learned the fundamentals of image interpretation and spatial analysis in Google Earth Engine, producing this [web app](https://lwsmith.users.earthengine.app/view/changing-ndvi-and-lst-in-cape-town) as a part of my final project.
-In my second remote sensing class, we delved into advanced topics like clustering and classification using machine learning methods in and touched on other topics like drone imagery acquisition and image processing in ArcGIS Pro.
+In my second remote sensing class, we delved into advanced topics like clustering and classification using machine learning methods and touched on other topics like drone imagery acquisition and image processing in ArcGIS Pro.
 If you're interested in seeing this work, please visit the [website I built for this class](https://sites.middlebury.edu/lwsmithremotesensing/).
 
 ## Open Source GIS
 
 I originally developed this website as a part of the [Open Source GIScience](https://gis4dev.github.io/) course I took at college.
-In this course, I learned to use all of the spatial analysis tools that I learned in my introductory GIS course in SQL, Python, and R.
+In this course, I learned to conduct reproducible spatial analysis in SQL, Python, and R.
 All of my coursework for this class is hosted on my [GitHub account](https://github.com/Liam-W-Smith), and my GIS analyses and reflections are included below.
 
 ### GIS Analyses
@@ -62,6 +62,7 @@ The GIS papers I wrote for that class are included below.
 
 I've taken two data science courses at Middlebury: introduction to data science and statistical learning.
 Please find my final project from statistical learning, in which my group learned about fuzzy c-means clustering, by [clicking here](Project.html).
+I've also taken a theoretical math class on probability and I'm enrolled in machine learning this spring.
 
 ## Mathematics
 
