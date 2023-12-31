@@ -6,7 +6,6 @@ title: Main page
 <img src="/assets/Profile_Photo.jpg" align="right" width="200px"/>
 Hey! My name is Liam and I’m a senior at Middlebury College studying geography and mathematics.
 When I’m not at school, I live in Rochester, New York with my four siblings, parents, and grandma. 
-
 I love hiking, rock climbing, and gymnastics, and I was involved with environmental advocacy for several years.
 I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. 
 
@@ -16,7 +15,7 @@ Please contact me at 1liam1smith1@gmail.com with any questions.
 
 <!-- | Hey! My name is Liam and I’m a senior at Middlebury College studying geography and mathematics. When I’m not at school, I live in Rochester, New York with my four siblings, parents, and grandma. I love hiking, rock climbing, and gymnastics, and I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. This website serves as a portfolio for my college education and relevant work experiences. | ![<img src="(assets/Profile_Photo.jpg" width="500"/>](assets/Profile_Photo.jpg) | -->
 
-## Research
+## GIS Research
 This past summer, I worked as a research assistant for Professor Joe Holler at Middlebury College.
 In this position, I checked the validity of a published study on social vulnerability to natural disasters by coding their entire analysis in Python.
 As a part of my work, I programmed Principal Component Analysis with varimax rotation from scratch and critiqued the statistical methodology of the Social Vulnerability Index (SoVI).
