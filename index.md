@@ -10,10 +10,9 @@ I love hiking, rock climbing, and gymnastics, and I was involved with environmen
 I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. 
 
 This website serves as a portfolio for my college education and relevant work experiences.
-Please contact me at 1liam1smith1@gmail.com with any questions.
+Please contact me at [1liam1smith1@gmail.com](1liam1smith1@gmail.com) with any questions.
 <br clear="left"/>
 
-<!-- | Hey! My name is Liam and I’m a senior at Middlebury College studying geography and mathematics. When I’m not at school, I live in Rochester, New York with my four siblings, parents, and grandma. I love hiking, rock climbing, and gymnastics, and I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. This website serves as a portfolio for my college education and relevant work experiences. | ![<img src="(assets/Profile_Photo.jpg" width="500"/>](assets/Profile_Photo.jpg) | -->
 
 ## GIS Research
 This past summer, I worked as a research assistant for Professor Joe Holler at Middlebury College.
@@ -27,12 +26,15 @@ At Middlebury, all mathematics majors are required to write a capstone thesis on
 I chose to investigate two applications of spectral graph theory, applying my knowledge of linear algebra to graph theoretic problems.
 My senior thesis is [available here](thesis.pdf).
 
-## Remote Sensing
+## Remote Sensing Coursework
 
-In my remote sensing class, we practiced the fundamentals of image processing in Google Earth Engine, learned more advanced topics like clustering and classification, and touched on other topics like drone imagery acquisition and image processing in ArcGIS Pro.
-If you're interested in seeing my remote sensing work, please visit the website we built for this class by [clicking here](https://sites.middlebury.edu/lwsmithremotesensing/).
+I've taken two geography courses on remote sensing using Google Earth Engine and I'm enrolled in a computer science course on image processing this spring.
+In my first remote sensing class, I learned the fundamentals of image interpretation and spatial analysis in Google Earth Engine, producing this [web app](https://lwsmith.users.earthengine.app/view/changing-ndvi-and-lst-in-cape-town) as a part of my final project.
+In my second remote sensing class, we delved into advanced topics like clustering and classification using machine learning methods in and touched on other topics like drone imagery acquisition and image processing in ArcGIS Pro.
+If you're interested in seeing this work, please visit the [website I built for this class](https://sites.middlebury.edu/lwsmithremotesensing/).
 
 ## Open Source GIS
+
 
 This section documents the work I've done in [GEOG 323: Open Source GIScience](https://gis4dev.github.io/).
 
