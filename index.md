@@ -3,10 +3,7 @@ layout: default
 title: Main page
 ---
 
-| Hey! My name is Liam and I’m a senior at Middlebury College studying geography and mathematics. When I’m not at school, I live in Rochester, New York with my four siblings, parents, and grandma.
-I love hiking, rock climbing, and gymnastics, and I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. 
-This website serves as a portfolio for my college education and relevant work experiences.
-| ![<img src="(assets/Profile_Photo.jpg" width="500"/>](assets/Profile_Photo.jpg) |
+| Hey! My name is Liam and I’m a senior at Middlebury College studying geography and mathematics. When I’m not at school, I live in Rochester, New York with my four siblings, parents, and grandma. I love hiking, rock climbing, and gymnastics, and I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. This website serves as a portfolio for my college education and relevant work experiences. | ![<img src="(assets/Profile_Photo.jpg" width="500"/>](assets/Profile_Photo.jpg) |
 
 ## Research
 This past summer, I worked as a research assistant for Professor Joe Holler at Middlebury College.
