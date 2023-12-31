@@ -35,8 +35,9 @@ If you're interested in seeing this work, please visit the [website I built for 
 
 ## Open Source GIS
 
-
-This section documents the work I've done in [GEOG 323: Open Source GIScience](https://gis4dev.github.io/).
+I originally developed this website as a part of the [Open Source GIScience](https://gis4dev.github.io/) course I took at college.
+In this course, I learned to use all of the spatial analysis tools that I learned in my introductory GIS course in SQL, Python, and R.
+All of my coursework for this class is hosted on my [GitHub account](https://github.com/Liam-W-Smith), and my GIS analyses and reflections are included below.
 
 ### GIS Analyses
 1. [Flood Risk and Food Access in Dar Es Salaam](/Dar-Es-Salaam-Vulnerability/report)
