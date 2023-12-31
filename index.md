@@ -3,21 +3,30 @@ layout: default
 title: Main page
 ---
 
-| Hey! My name is Liam and I'm a senior at Middlebury College studying geography and mathematics. This website documents the work I've done in [GEOG 323: Open Source GIScience](https://gis4dev.github.io/). If you're interested in seeing my remote sensing work, please [click here](https://sites.middlebury.edu/lwsmithremotesensing/) | ![<img src="(assets/Profile_Photo.jpg" width="500"/>](assets/Profile_Photo.jpg) |
+| Hey! My name is Liam and I'm a senior at Middlebury College studying geography and mathematics. If you're interested in seeing my remote sensing work, please [click here](https://sites.middlebury.edu/lwsmithremotesensing/) | ![<img src="(assets/Profile_Photo.jpg" width="500"/>](assets/Profile_Photo.jpg) |
 
 ## Research
-- [Spielman et. al Reproduction Report](RPr-Spielman-2020-report.pdf)
+This past summer, I worked as a research assistant for Professor Joe Holler at Middlebury College.
+In this position, I checked the validity of a published study on social vulnerability to natural disasters by coding their entire analysis in Python.
+As a part of my work, I programmed Principal Component Analysis with varimax rotation from scratch and critiqued the statistical methodology of the Social Vulnerability Index (SoVI).
+My research advisor and I wrote [this report on our work](RPr-Spielman-2020-report.pdf), which we will present at the American Association of Geographers Annual Meeting in April 2024. 
 
 ## Mathematics
-- [Senior Thesis on Spectral Graph Theory](thesis.pdf)
+At Middlebury, all mathematics majors are required to write a capstone thesis on a topic of interest.
+I chose to investigate two applications of spectral graph theory, applying my knowledge of linear algebra to graph theoretic problems.
+My senior thesis is [available here](thesis.pdf).
 
-## Open Source GIS Analyses
+## Open Source GIS
+
+This section documents the work I've done in [GEOG 323: Open Source GIScience](https://gis4dev.github.io/).
+
+### GIS Analyses
 1. [Flood Risk and Food Access in Dar Es Salaam](/Dar-Es-Salaam-Vulnerability/report)
 2. [Spatial Accessibility of COVID-19 Healthcare Resources in Chicago](COVID-19-spatial-accessibility)
 3. [Hurricane Ida Spatial Twitter Analysis](hurricane-ida-spatial-twitter-analysis)
 4. [Final Project: Replication Study using Geographically Weighted Regression](dental-gwr)
 
-## Open Source Blog Posts
+### Blog Posts
 
 1. [Is GIS a Science?](open-giscience)
 2. [The Role of Open Source GIS in Resolving the Reproducibility Crisis](Reproducibility-crisis)
