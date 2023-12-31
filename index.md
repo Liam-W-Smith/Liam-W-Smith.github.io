@@ -10,7 +10,7 @@ I love hiking, rock climbing, and gymnastics, and I was involved with environmen
 I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. 
 
 This website serves as a portfolio for my college education and relevant work experiences.
-Please contact me at [1liam1smith1@gmail.com](1liam1smith1@gmail.com) with any questions.
+Please contact me at [1liam1smith1@gmail.com](mailto: 1liam1smith1@gmail.com) with any questions.
 <br clear="left"/>
 
 
