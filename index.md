@@ -54,6 +54,8 @@ All of my coursework for this class is hosted on my [GitHub account](https://git
 In the conservation planning course I took at Middlebury, we conducted a semester-long analysis of the natural resources, habitat blocks, and habitat connectivity in the Town of Middlebury, Vermont.
 The GIS papers I wrote for that class are included below.
 
+<img src="/assets/conservationPlanning.png" align="right" width="400px"/>
+
 1. [Viewshed analysis](clearings_report.pdf)
 2. [Riparian conservation](riparian_report.pdf)
 3. [Habitat blocks and connectivity](final_report.pdf)
