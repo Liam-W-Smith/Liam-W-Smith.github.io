@@ -62,11 +62,11 @@ The GIS papers I wrote for that class are included below.
 
 ## Data Science
 
-<img src="/assets/fuzzyCmeans.png" align="right" width="350px"/>
-
 I've taken two data science courses at Middlebury: introduction to data science and statistical learning.
 Please find my final project from statistical learning, in which my group learned about fuzzy c-means clustering, by [clicking here](Project.html).
 I've also taken a theoretical math class on probability and I'm enrolled in machine learning this spring.
+
+![Data Science image](/assets/fuzzyCmeans.png)
 
 ## Mathematics
 
