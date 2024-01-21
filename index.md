@@ -51,16 +51,18 @@ All of my coursework for this class is hosted on my [GitHub account](https://git
 
 ## Conservation Planning
 
+<img src="/assets/conservationPlanning.png" align="right" width="350px"/>
+
 In the conservation planning course I took at Middlebury, we conducted a semester-long analysis of the natural resources, habitat blocks, and habitat connectivity in the Town of Middlebury, Vermont.
 The GIS papers I wrote for that class are included below.
-
-<img src="/assets/conservationPlanning.png" align="right" width="400px"/>
 
 1. [Viewshed analysis](clearings_report.pdf)
 2. [Riparian conservation](riparian_report.pdf)
 3. [Habitat blocks and connectivity](final_report.pdf)
 
 ## Data Science
+
+<img src="/assets/fuzzyCmeans.png" align="right" width="350px"/>
 
 I've taken two data science courses at Middlebury: introduction to data science and statistical learning.
 Please find my final project from statistical learning, in which my group learned about fuzzy c-means clustering, by [clicking here](Project.html).
