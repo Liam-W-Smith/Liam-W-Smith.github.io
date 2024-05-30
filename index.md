@@ -4,10 +4,10 @@ title: Main page
 ---
 
 <img src="/assets/Profile_Photo.jpg" align="right" width="200px"/>
-Hey! My name is Liam and I’m a senior at Middlebury College studying geography and mathematics.
-When I’m not at school, I live in Rochester, New York with my four siblings, parents, and grandma. 
+Hey! My name is Liam and I’m a recent graduate from Middlebury College, where I studied geography and mathematics.
+I live in Rochester, New York with my four siblings, parents, and grandma. 
 I love hiking, rock climbing, and gymnastics, and I was involved with environmental advocacy for several years.
-I’m passionate about the applications of GIS towards conservation, urban planning, and renewable energy. 
+I'm currently a Data Science Intern for the [Rocky Mountain Inventory & Monitoring Network](https://www.nps.gov/im/romn/index.htm), and I’m passionate about the applications of GIS and data science towards conservation and sustainability. 
 
 This website serves as a portfolio for my college education and relevant work experiences.
 Please contact me at [1liam1smith1@gmail.com](mailto: 1liam1smith1@gmail.com) with any questions.
@@ -18,14 +18,16 @@ Please contact me at [1liam1smith1@gmail.com](mailto: 1liam1smith1@gmail.com) wi
 This past summer, I worked as a research assistant for Professor Joe Holler at Middlebury College.
 In this position, I checked the validity of a published study on social vulnerability to natural disasters by coding their entire analysis in Python.
 As a part of my work, I programmed Principal Component Analysis with varimax rotation from scratch and critiqued the statistical methodology of the Social Vulnerability Index (SoVI).
-My research advisor and I wrote [this report on our work](RPr-Spielman-2020-report.pdf), which we will present at the American Association of Geographers Annual Meeting in April 2024. 
+My research advisor and I wrote [this report on our work](RPr-Spielman-2020-report.pdf), and presented our work at the American Association of Geographers Annual Meeting in April 2024. 
 
 ## Remote Sensing Experience
 
-I've taken two geography courses on remote sensing using Google Earth Engine and I'm enrolled in a computer science course on image processing this spring.
+I've taken two geography courses on remote sensing using Google Earth Engine and one computer science course on image processing.
 In my first remote sensing class, I learned the fundamentals of image interpretation and spatial analysis in Google Earth Engine, producing this [web app](https://lwsmith.users.earthengine.app/view/changing-ndvi-and-lst-in-cape-town) as a part of my final project.
 In my second remote sensing class, we delved into advanced topics like clustering and classification using machine learning methods and touched on other topics like drone imagery acquisition and image processing in ArcGIS Pro.
 If you're interested in seeing this work, please visit the [website I built for this class](https://sites.middlebury.edu/lwsmithremotesensing/).
+In the image processing course, I learned to use Python, particularly NumPy and scikit-image, to analyze images.
+For my [final project](https://liam-w-smith.github.io/csci-0452-final-project/), I explored several machine learning algorithms for road segmentation.
 
 ## Open Source GIS
 
@@ -58,11 +60,12 @@ The GIS papers I wrote for that class are included below.
 2. [Riparian conservation](riparian_report.pdf)
 3. [Habitat blocks and connectivity](final_report.pdf)
 
-## Data Science
+## Data Science and Machine Learning
 
-I've taken two data science courses at Middlebury: introduction to data science and statistical learning.
+As a part of my math major, I took two data science courses: introduction to data science and statistical learning.
 Please find my final project from statistical learning, in which my group learned about fuzzy c-means clustering, by [clicking here](Project.html).
-I've also taken a theoretical math class on probability and I'm enrolled in machine learning this spring.
+In the computer science department, I also took an elective on machine learning, and all of my machine learning work is [available here](https://liam-w-smith.github.io/csci-0451/).
+
 
 ## Mathematics
 
