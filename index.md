@@ -66,9 +66,14 @@ As a part of my math major, I took two data science courses: introduction to dat
 Please find my final project from statistical learning, in which my group learned about fuzzy c-means clustering, by [clicking here](Project.html).
 In the computer science department, I also took an elective on machine learning, and all of my machine learning work is [available here](https://liam-w-smith.github.io/csci-0451/).
 
-
 ## Mathematics
 
 At Middlebury, all mathematics majors are required to write a capstone thesis on a topic of interest.
 I chose to investigate two applications of spectral graph theory, applying my knowledge of linear algebra to graph theoretic problems.
 My senior thesis is [available here](thesis.pdf).
+
+## Cartography
+
+Hoping to learn how to make figures more accessible and aesthetically pleasing, I enrolled in a class on cartographic design during my final semester of college.
+My final project for this course is a map of rock climbing locations in South Africa's Western Cape, [available here](cart_fp.pdf).
+
