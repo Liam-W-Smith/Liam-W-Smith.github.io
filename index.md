@@ -75,5 +75,5 @@ My senior thesis is [available here](thesis.pdf).
 ## Cartography
 
 Hoping to learn how to make figures more accessible and aesthetically pleasing, I enrolled in a class on cartographic design during my final semester of college.
-My final project for this course is a map of rock climbing locations in South Africa's Western Cape, [available here](cart_fp.pdf).
+My final project for this course is a map of rock climbing locations in South Africa's Western Cape, [available here](cart_fp_compressed.pdf).
 
