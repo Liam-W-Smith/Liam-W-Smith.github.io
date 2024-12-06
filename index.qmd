@@ -1,0 +1,25 @@
+---
+title: About
+about:
+  id: hero-heading
+  image: img/profile2.jpg
+  template: trestles
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Liam-W-Smith
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/liam-smith-b159791b3/
+---
+
+Hey there!
+My name is Liam and I’m a recent graduate from Middlebury College with a B.A. in geography and mathematics.
+I currently work as a Data Science Intern at the [Rocky Mountain Inventory & Monitoring Network](https://www.nps.gov/im/romn/index.htm), where I write code and develop R packages to manage long term ecological monitoring data.
+Other professional interests include remote sensing, cartography, conservation, and sustainability.
+
+I grew up in Rochester, NY with my four siblings, parents, and grandma, and I'm currently working remotely from Middlebury, VT.
+When I'm not at work or spending time with family, you can find me rock climbing, standing on my hands, or playing piano.
+
+This website serves as my digital portfolio, displaying the products of my education and work experience.
+To get in touch, please drop me a line at [1liam1smith1@gmail.com](mailto: 1liam1smith1@gmail.com).

@@ -1,0 +1,23 @@
+---
+title: Fuzzy C-Means Clustering
+author: Yifei Luo, Liam Smith, Xingze Wang
+description: "Understanding a popular algorithm for soft clustering."
+date: 2022-05-18
+categories: 
+    - Machine Learning
+    - R
+image: "post-icon.png"
+---
+
+<p class="text-center">
+  <a class="btn btn-primary btn-lg" href="Project.html" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Visit Project Web Page
+  </a>
+</p>
+
+:::{.column-screen-inset}
+
+```{=html}
+<iframe width="100%" height=1000 src="Project.html" title="Webpage example"></iframe>
+```
+:::
