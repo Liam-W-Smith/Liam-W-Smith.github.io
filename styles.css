@@ -1,0 +1,29 @@
+/* css styles */
+
+/* Edit appearance of buttons */
+button, .btn {
+    background-color: #3498db; 
+    border-radius: 5px;
+}
+
+button:hover, .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Edit appearance of tabset pills */
+.nav-pills .nav-link.active {
+    background-color: #3498db; 
+    border-radius: 5px; 
+    pointer-events: none;
+}
+
+.nav-pills .nav-link {
+    background-color: #f0f0f0; 
+    color: #333; 
+    border-radius: 5px; 
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #d6eaf8;
+    color: black; 
+}
