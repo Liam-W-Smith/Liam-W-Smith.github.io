@@ -1,0 +1,8 @@
+---
+title: 404 Page Not Found
+---
+
+# Sorry, we couldn't find that page.
+
+The link may have changed or the page may have been removed.
+Perhaps a different post on [my portfolio](portfolio.html) will interest you.

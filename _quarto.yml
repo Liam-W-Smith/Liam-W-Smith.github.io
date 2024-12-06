@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Liam Smith"
+  navbar:
+    background: "#112a39"
+    foreground: "#f2f2f2"
+    right:
+      - index.qmd
+      - portfolio.qmd
+      - icon: github
+        href: https://github.com/Liam-W-Smith
+      - icon: linkedin
+        href: https://www.linkedin.com/in/liam-smith-b159791b3/
+  
+
+format:
+  html:
+    title-block-banner: img/panorama5.jpg
+    title-block-banner-color: "#f2f2f2"
+    theme: cosmo
+    css: styles.css
+    backgroundcolor: "#f2f2f2"
+    monobackgroundcolor: "#f2f2f2"
+
+
+
+
