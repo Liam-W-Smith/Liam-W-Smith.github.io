@@ -1,0 +1,37 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/geog_150_final_project/index.html",
+      "/posts/post1/AAG-GeoAI/index.html",
+      "/posts/riparian_report/index.html"
+    ]
+  },
+  {
+    "listing": "/portfolio.html",
+    "items": [
+      "/posts/ml-final-project/index.html",
+      "/posts/road-segmentation/index.html",
+      "/posts/cart-final-project/index.html",
+      "/posts/sparse-kernel-machines/index.html",
+      "/posts/newtons-method/index.html",
+      "/posts/logistic-regression/index.html",
+      "/posts/perceptron/index.html",
+      "/posts/palmer-penguins/index.html",
+      "/posts/math-thesis/index.html",
+      "/posts/spielman-reproduction/index.html",
+      "/posts/habitat-connectivity/index.html",
+      "/posts/clearings-report/index.html",
+      "/posts/riparian-report/index.html",
+      "/posts/stat-learning-project/index.html",
+      "/posts/landcover-classification/index.html",
+      "/posts/local-vs-global-classification/index.html",
+      "/posts/malawi-deforestation/index.html",
+      "/posts/green-space/index.html",
+      "/posts/dental-gwr/index.html",
+      "/posts/hurricane-twitter/index.html",
+      "/posts/COVID-19-spatial-accessibility/index.html",
+      "/posts/flood-vulnerability/index.html"
+    ]
+  }
+]
