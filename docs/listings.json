@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/geog_150_final_project/index.html",
-      "/posts/post1/AAG-GeoAI/index.html",
-      "/posts/riparian_report/index.html"
-    ]
-  },
-  {
     "listing": "/portfolio.html",
     "items": [
       "/posts/ml-final-project/index.html",
