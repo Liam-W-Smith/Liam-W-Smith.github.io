@@ -8,8 +8,6 @@ categories:
     - GIScience
     - R
 image: assets/adaptive_kernel_gwr.png
-aliases:
-  - https://liam-w-smith.github.io/dental-gwr
 ---
 
 
