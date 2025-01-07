@@ -1,0 +1,24 @@
+---
+title: Water Chemistry R Package
+author: Liam Smith
+description: "An R package to process water chemistry data into a standardized, machine readable format."
+date: 2025-01-06
+categories: 
+    - R
+image: false
+---
+
+I contributed to this R package as part of my work at the Rocky Mountain Inventory & Monitoring Network.
+Specifically, I added functions to help users format [CCAL](https://ccal.oregonstate.edu/) data into the EQuIS Electronic Data Deliverable format.
+
+<p class="text-center">
+  <a class="btn btn-primary btn-lg" href="https://nationalparkservice.github.io/imd-ccal/index.html" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Visit Package Website
+  </a>
+</p>
+
+:::{.column-screen-inset}
+```{=html}
+<iframe width="100%" height=1000 src="https://nationalparkservice.github.io/imd-ccal/index.html" title="Webpage example"></iframe>
+```
+:::

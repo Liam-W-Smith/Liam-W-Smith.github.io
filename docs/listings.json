@@ -2,6 +2,7 @@
   {
     "listing": "/portfolio.html",
     "items": [
+      "/posts/imdccal-r-package/index.html",
       "/posts/ml-final-project/index.html",
       "/posts/road-segmentation/index.html",
       "/posts/cart-final-project/index.html",
