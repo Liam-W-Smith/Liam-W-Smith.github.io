@@ -15,7 +15,7 @@ about:
 
 Hey there!
 My name is Liam and I’m a recent graduate from Middlebury College with a B.A. in geography and mathematics.
-I currently work as a Data Science Intern at the [Rocky Mountain Inventory & Monitoring Network](https://www.nps.gov/im/romn/index.htm), where I write code and develop R packages to manage long term ecological monitoring data.
+I currently work as a Data Science Intern at the [Rocky Mountain Inventory & Monitoring Network](https://www.nps.gov/im/romn/index.htm), where I develop code to manage long term ecological monitoring data.
 Other professional interests include remote sensing, cartography, conservation, and sustainability.
 
 I grew up in Rochester, NY with my four siblings, parents, and grandma, and I'm currently working remotely from Middlebury, VT.
