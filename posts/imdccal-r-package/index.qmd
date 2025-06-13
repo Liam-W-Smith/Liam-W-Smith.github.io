@@ -5,11 +5,11 @@ description: "An R package to process water chemistry data into a standardized, 
 date: 2025-01-06
 categories: 
     - R
-image: false
+image: romn.png
 ---
 
-I contributed to this R package as part of my work at the Rocky Mountain Inventory & Monitoring Network.
-Specifically, I added functions to help users format [CCAL](https://ccal.oregonstate.edu/) data into the EQuIS Electronic Data Deliverable format.
+As part of my work at the Rocky Mountain Inventory & Monitoring Network, I contributed to this R package to streamline water chemistry data processing for users across the National Park Service.
+Specifically, I added functions to help users format data from [Cooperative Chemical Analytical Laboratory (CCAL)](https://ccal.oregonstate.edu/) into the EQuIS Electronic Data Deliverable format and wrote unit tests to ensure the validity of my contributions.
 
 <p class="text-center">
   <a class="btn btn-primary btn-lg" href="https://nationalparkservice.github.io/imd-ccal/index.html" target="_blank">

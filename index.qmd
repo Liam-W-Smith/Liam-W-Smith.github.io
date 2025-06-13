@@ -15,11 +15,11 @@ about:
 
 Hey there!
 My name is Liam and I’m a recent graduate from Middlebury College with a B.A. in geography and mathematics.
-I currently work as a Data Science Intern at the [Rocky Mountain Inventory & Monitoring Network](https://www.nps.gov/im/romn/index.htm), where I develop code to manage long term ecological monitoring data.
-Other professional interests include remote sensing, cartography, conservation, and sustainability.
+I currently work as a Fire Effects Monitor at Northern Great Plains Fire Management, conducting fieldwork to assess the plant composition and fuel loading at National Park Service units across the Northern Great Plains.
+Previously, I was a Data Science Intern at the [Rocky Mountain Inventory & Monitoring Network](https://www.nps.gov/im/romn/index.htm), where I developed code to manage long term ecological monitoring data.
 
-I grew up in Rochester, NY with my four siblings, parents, and grandma, and I'm currently working remotely from Middlebury, VT.
-When I'm not at work or spending time with family, you can find me rock climbing, standing on my hands, or playing piano.
+I grew up in Rochester, New York with my four siblings, parents, and grandma, and I’m currently based out of Wind Cave National Park in South Dakota. 
+When I’m not at work or spending time with family, you can find me rock climbing, standing on my hands, or playing piano.
 
 This website serves as my digital portfolio, displaying the products of my education and work experience.
 To get in touch, please drop me a line at [1liam1smith1@gmail.com](mailto: 1liam1smith1@gmail.com).

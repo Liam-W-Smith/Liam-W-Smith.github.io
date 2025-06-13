@@ -1,0 +1,21 @@
+---
+title: Water Chemistry ETL Process
+author: Liam Smith
+description: "Revising an Extract, Transform, and Load process to do more using less code."
+date: 2025-04-25
+categories: 
+    - R
+image: water-sampling.jpg
+---
+
+During my internship with the Rocky Mountain Inventory & Monitoring Network, I revamped a preexisting Extract, Transform, and Load (ETL) process by implementing new quality control procedures and
+migrating the codebase from Visual Basic to R.
+In addition to writing quality control functions to improve the quality of our data, I achieved a 90% reduction in code volume (17,000+ to under 2,000 lines), reducing future maintenance effort.
+
+I delivered a capstone presentation about this project at the Inventory & Monitoring Division's data management Fireside Chat, and I published my code online at the following GitHub repository.
+
+<p class="text-center">
+  <a class="btn btn-primary btn-lg" href="https://github.com/nationalparkservice/ROMN-WaterQualityLab" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Visit GitHub Repository
+  </a>
+</p>
