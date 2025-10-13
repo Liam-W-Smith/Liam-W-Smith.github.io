@@ -14,9 +14,8 @@ about:
 ---
 
 Hey there!
-My name is Liam and I’m a GIS Intern at the [Southwest Alaska Network](https://www.nps.gov/im/swan/index.htm), where I develop spatial data collection and management tools to support ecological monitoring efforts.
-I graduated from Middlebury College in 2024 with a B.A. in geography and mathematics, and since then I've worked for the National Park Service in a few different capacities.
-Over the summer, I conducted fieldwork as a Fire Effects Monitor at Northern Great Plains Fire Management, and before that I wrote code to help clean and publish data as a Data Science Intern at the [Rocky Mountain Inventory & Monitoring Network](https://www.nps.gov/im/romn/index.htm).
+My name is Liam and I’m a GIS Intern working on spatial data collection and management tools at the [Southwest Alaska Network](https://www.nps.gov/im/swan/index.htm).
+I graduated from Middlebury College in 2024 with a B.A. in geography and mathematics, and since then I've worked for the National Park Service in a few different capacities, first as a Data Science Intern at the [Rocky Mountain Network](https://www.nps.gov/im/romn/index.htm) and then as a Fire Effects Monitor at Northern Great Plains Fire Management.
 
 I grew up in Rochester, New York with my four siblings, parents, and grandma, and I’m currently based out of Brooklyn, NY. 
 When I’m not at work or spending time with family, you can find me rock climbing, standing on my hands, or playing piano.
